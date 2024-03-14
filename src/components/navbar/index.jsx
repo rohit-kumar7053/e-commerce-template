@@ -1811,13 +1811,13 @@ const Navbar = (props) => {
                                                 <div className="flex justify-between w-1/2">
                                                     <div className="">
                                                         <img
-                                                            src="../src/assets/local-images/blog-sidebar-2.avif"
+                                                            src="/assets/local-images/blog-sidebar-2.avif"
                                                             alt=""
                                                             srcset=""
                                                         />
                                                     </div>
                                                     <img
-                                                        src="../src/assets/local-images/blog-sidebar-2.avif"
+                                                        src="/assets/local-images/blog-sidebar-2.avif"
                                                         alt=""
                                                         srcset=""
                                                     />
@@ -2133,14 +2133,14 @@ const Navbar = (props) => {
                                                     <div className="flex flex-col justify-center items-center text-center gap-4">
                                                         <div className="relative w-48 h-48 overflow-hidden bg-black">
                                                             <img
-                                                                src="../src/assets/local-images/blog-sidebar-1.avif"
+                                                                src="/assets/local-images/blog-sidebar-1.avif"
                                                                 alt=""
                                                                 className="w-full h-48 object-cover transition-transform duration-700 transform hover:scale-110"
                                                             />
                                                         </div>
                                                         <div className="relative w-48 h-44 overflow-hidden bg-black">
                                                             <img
-                                                                src="../src/assets/local-images/mega-menu-2.avif"
+                                                                src="/assets/local-images/mega-menu-2.avif"
                                                                 alt=""
                                                                 className="w-full h-44 object-cover transition-transform duration-700 transform hover:scale-110"
                                                             />
@@ -2148,7 +2148,7 @@ const Navbar = (props) => {
                                                     </div>
                                                     <div className="relative w-60 h-full overflow-hidden bg-black">
                                                         <img
-                                                            src="../src/assets/local-images/mega-menu-1.avif"
+                                                            src="/assets/local-images/mega-menu-1.avif"
                                                             alt=""
                                                             className="w-full h-96 object-cover transition-transform duration-700 transform hover:scale-110"
                                                         />
@@ -2181,7 +2181,7 @@ const Navbar = (props) => {
                                                     </a>
                                                     <div className="relative w-48 h-28 overflow-hidden bg-black">
                                                         <img
-                                                            src="../src/assets/local-images/blog1.jpg"
+                                                            src="/assets/local-images/blog1.jpg"
                                                             alt=""
                                                             className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
                                                         />
@@ -2245,7 +2245,7 @@ const Navbar = (props) => {
                                                     </a>
                                                     <div className="relative w-48 h-28 overflow-hidden bg-black">
                                                         <img
-                                                            src="../src/assets/local-images/blog2.jpg"
+                                                            src="/assets/local-images/blog2.jpg"
                                                             alt=""
                                                             className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
                                                         />
@@ -2309,7 +2309,7 @@ const Navbar = (props) => {
                                                     </a>
                                                     <div className="relative w-48 h-28 overflow-hidden bg-black">
                                                         <img
-                                                            src="../src/assets/local-images/blog3.jpg"
+                                                            src="/assets/local-images/blog3.jpg"
                                                             alt=""
                                                             className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
                                                         />
@@ -2373,7 +2373,7 @@ const Navbar = (props) => {
                                                     </a>
                                                     <div className="relative w-48 h-28 overflow-hidden bg-black">
                                                         <img
-                                                            src="../src/assets/local-images/blog4.webp"
+                                                            src="/assets/local-images/blog4.webp"
                                                             alt=""
                                                             className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
                                                         />
@@ -2435,7 +2435,7 @@ const Navbar = (props) => {
                                                     </a>
                                                     <div className="relative w-48 h-28 overflow-hidden bg-black">
                                                         <img
-                                                            src="../src/assets/local-images/banner-1.jpg"
+                                                            src="/assets/local-images/banner-1.jpg"
                                                             alt=""
                                                             className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
                                                         />

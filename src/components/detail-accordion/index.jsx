@@ -102,7 +102,7 @@ function Accordion() {
                                             <div className="w-1/2 bg-white flex justify-center items-center">
                                                 <div className="image-card relative overflow-hidden w-full h-full">
                                                     <img
-                                                        src="../src/assets/local-images/product-description-image-1.webp"
+                                                        src="/assets/local-images/product-description-image-1.webp"
                                                         alt=""
                                                         className="object-cover w-full h-full transition-transform duration-1000 transform hover:scale-105"
                                                     />
@@ -159,7 +159,7 @@ function Accordion() {
                                             <div className="w-1/2 bg-white flex justify-center items-center">
                                                 <div className="image-card relative overflow-hidden w-full h-full">
                                                     <img
-                                                        src="../src/assets/local-images/product-description-image-1.webp"
+                                                        src="/assets/local-images/product-description-image-1.webp"
                                                         alt=""
                                                         className="object-cover w-full h-full transition-transform duration-1000 transform hover:scale-105"
                                                     />

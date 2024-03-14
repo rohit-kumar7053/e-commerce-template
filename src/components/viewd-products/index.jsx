@@ -6,8 +6,8 @@ const Viewdproducts = () => {
     const products = [
         {
             id: 1,
-            defaultImage: "../src/assets/local-images/image11.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image11.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
             availProducts: "5",
@@ -17,8 +17,8 @@ const Viewdproducts = () => {
         },
         {
             id: 1,
-            defaultImage: "../src/assets/local-images/image6.webp",
-            hoverImage: "../src/assets/local-images/image12.webp",
+            defaultImage: "/assets/local-images/image6.webp",
+            hoverImage: "/assets/local-images/image12.webp",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
             availProducts: "5",
@@ -28,8 +28,8 @@ const Viewdproducts = () => {
         },
         {
             id: 1,
-            defaultImage: "../src/assets/local-images/image7.webp",
-            hoverImage: "../src/assets/local-images/image2.webp",
+            defaultImage: "/assets/local-images/image7.webp",
+            hoverImage: "/assets/local-images/image2.webp",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
             availProducts: "5",
@@ -39,8 +39,8 @@ const Viewdproducts = () => {
         },
         {
             id: 1,
-            defaultImage: "../src/assets/local-images/image13.webp",
-            hoverImage: "../src/assets/local-images/image4.webp",
+            defaultImage: "/assets/local-images/image13.webp",
+            hoverImage: "/assets/local-images/image4.webp",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
             availProducts: "5",

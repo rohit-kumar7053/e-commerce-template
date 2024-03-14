@@ -85,35 +85,35 @@ const Ellainsta = () => {
                 >
                     <div className="relative w-56 h-64 overflow-hidden">
                         <img
-                            src="../src/assets/local-images/insta2.jpg"
+                            src="/assets/local-images/insta2.jpg"
                             alt=""
                             className=" w-full h-full object-cover transition-transform duration-700 transform hover:scale-105"
                         />
                     </div>
                     <div className="relative w-56 h-64 overflow-hidden">
                         <img
-                            src="../src/assets/local-images/insta1.avif"
+                            src="/assets/local-images/insta1.avif"
                             alt=""
                             className=" w-full h-full object-cover transition-transform duration-700 transform hover:scale-105"
                         />
                     </div>
                     <div className="relative w-56 h-64 overflow-hidden">
                         <img
-                            src="../src/assets/local-images/insta3.avif"
+                            src="/assets/local-images/insta3.avif"
                             alt=""
                             className=" w-full h-full object-cover transition-transform duration-700 transform hover:scale-105"
                         />
                     </div>
                     <div className="relative w-56 h-64 overflow-hidden">
                         <img
-                            src="../src/assets/local-images/insta4.avif"
+                            src="/assets/local-images/insta4.avif"
                             alt=""
                             className=" w-full h-full object-cover transition-transform duration-700 transform hover:scale-105"
                         />
                     </div>
                     <div className="relative w-56 h-64 overflow-hidden">
                         <img
-                            src="../src/assets/local-images/insta5.avif"
+                            src="/assets/local-images/insta5.avif"
                             alt=""
                             className=" w-full h-full object-cover transition-transform duration-700 transform hover:scale-105"
                         />

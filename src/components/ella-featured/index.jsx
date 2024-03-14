@@ -40,17 +40,17 @@ const Ellafeatured = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <Card
-                    imageSrc="../src/assets/local-images/trainding-1.webp"
+                    imageSrc="/assets/local-images/trainding-1.webp"
                     title="LOREM DE DORUS"
                     description="Nullam aliquet vestibulum augue non varius. Cras cosmo congue an melitos. Dui del ante le maliquam. Praesent murna de tellus laoreet cosmopolis."
                 />
                 <Card
-                    imageSrc="../src/assets/local-images/trainding-2.webp"
+                    imageSrc="/assets/local-images/trainding-2.webp"
                     title="MILANCELOS LANOS"
                     description="Nullam aliquet vestibulum augue non varius. Cras cosmo congue an melitos. Dui del ante le maliquam. Praesent murna de tellus laoreet cosmopolis."
                 />
                 <Card
-                    imageSrc="../src/assets/local-images/trainding-1.webp"
+                    imageSrc="/assets/local-images/trainding-1.webp"
                     title="COMO A MILANO"
                     description="Nullam aliquet vestibulum augue non varius. Cras cosmo congue an melitos. Dui del ante le maliquam. Praesent murna de tellus laoreet cosmopolis."
                 />

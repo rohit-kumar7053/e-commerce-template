@@ -12,8 +12,8 @@ const FilterableCard = () => {
     const products = [
         {
             id: 1,
-            defaultImage: "../src/assets/local-images/image1.webp",
-            hoverImage: "../src/assets/local-images/image2.webp",
+            defaultImage: "/assets/local-images/image1.webp",
+            hoverImage: "/assets/local-images/image2.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Add To Cart",
             title: "MODERN AMUSEMENT",
@@ -25,8 +25,8 @@ const FilterableCard = () => {
         },
         {
             id: 2,
-            defaultImage: "../src/assets/local-images/image2.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image2.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
 
             imagehoverbtnText: "Notify ME",
@@ -41,8 +41,8 @@ const FilterableCard = () => {
         },
         {
             id: 3,
-            defaultImage: "../src/assets/local-images/image3.webp",
-            hoverImage: "../src/assets/local-images/image4.webp",
+            defaultImage: "/assets/local-images/image3.webp",
+            hoverImage: "/assets/local-images/image4.webp",
             btnText: "Notify ME",
 
             imagehoverbtnText: "Quick View",
@@ -57,8 +57,8 @@ const FilterableCard = () => {
         },
         {
             id: 4,
-            defaultImage: "../src/assets/local-images/image2.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image2.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
 
             imagehoverbtnText: "Quick View",
@@ -73,8 +73,8 @@ const FilterableCard = () => {
         },
         {
             id: 5,
-            defaultImage: "../src/assets/local-images/image2.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image2.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
 
             imagehoverbtnText: "Quick View",
@@ -89,8 +89,8 @@ const FilterableCard = () => {
         },
         {
             id: 6,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
 
             imagehoverbtnText: "Quick View",
@@ -105,8 +105,8 @@ const FilterableCard = () => {
         },
         {
             id: 7,
-            defaultImage: "../src/assets/local-images/image2.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image2.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
 
             imagehoverbtnText: "Quick View",
@@ -120,8 +120,8 @@ const FilterableCard = () => {
         },
         {
             id: 8,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -135,8 +135,8 @@ const FilterableCard = () => {
         },
         {
             id: 9,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -150,8 +150,8 @@ const FilterableCard = () => {
         },
         {
             id: 10,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -165,8 +165,8 @@ const FilterableCard = () => {
         },
         {
             id: 11,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -180,8 +180,8 @@ const FilterableCard = () => {
         },
         {
             id: 12,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -195,8 +195,8 @@ const FilterableCard = () => {
         },
         {
             id: 13,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -210,8 +210,8 @@ const FilterableCard = () => {
         },
         {
             id: 14,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -225,8 +225,8 @@ const FilterableCard = () => {
         },
         {
             id: 15,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -240,8 +240,8 @@ const FilterableCard = () => {
         },
         {
             id: 16,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -255,8 +255,8 @@ const FilterableCard = () => {
         },
         {
             id: 17,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -270,8 +270,8 @@ const FilterableCard = () => {
         },
         {
             id: 18,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -285,8 +285,8 @@ const FilterableCard = () => {
         },
         {
             id: 19,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -300,8 +300,8 @@ const FilterableCard = () => {
         },
         {
             id: 20,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -315,8 +315,8 @@ const FilterableCard = () => {
         },
         {
             id: 21,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -330,8 +330,8 @@ const FilterableCard = () => {
         },
         {
             id: 22,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -345,8 +345,8 @@ const FilterableCard = () => {
         },
         {
             id: 23,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -360,8 +360,8 @@ const FilterableCard = () => {
         },
         {
             id: 24,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -375,8 +375,8 @@ const FilterableCard = () => {
         },
         {
             id: 25,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -390,8 +390,8 @@ const FilterableCard = () => {
         },
         {
             id: 26,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -405,8 +405,8 @@ const FilterableCard = () => {
         },
         {
             id: 27,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -420,8 +420,8 @@ const FilterableCard = () => {
         },
         {
             id: 28,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -435,8 +435,8 @@ const FilterableCard = () => {
         },
         {
             id: 29,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -450,8 +450,8 @@ const FilterableCard = () => {
         },
         {
             id: 30,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -465,8 +465,8 @@ const FilterableCard = () => {
         },
         {
             id: 31,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -480,8 +480,8 @@ const FilterableCard = () => {
         },
         {
             id: 32,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -495,8 +495,8 @@ const FilterableCard = () => {
         },
         {
             id: 33,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -510,8 +510,8 @@ const FilterableCard = () => {
         },
         {
             id: 34,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -525,8 +525,8 @@ const FilterableCard = () => {
         },
         {
             id: 35,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -540,8 +540,8 @@ const FilterableCard = () => {
         },
         {
             id: 36,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -555,8 +555,8 @@ const FilterableCard = () => {
         },
         {
             id: 37,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -570,8 +570,8 @@ const FilterableCard = () => {
         },
         {
             id: 38,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -585,8 +585,8 @@ const FilterableCard = () => {
         },
         {
             id: 39,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -600,8 +600,8 @@ const FilterableCard = () => {
         },
         {
             id: 40,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             btnText: "Notify ME",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
@@ -843,17 +843,17 @@ const FilterableCard = () => {
                                                     {/* Product Options */}
                                                     <div className="flex justify-start gap-2 pt-3">
                                                         <img
-                                                            src="../src/assets/local-images/image5.webp"
+                                                            src="/assets/local-images/image5.webp"
                                                             alt="Your Image"
                                                             className="rounded-3xl h-8 w-8 border-stone-500 border-2"
                                                         />
                                                         <img
-                                                            src="../src/assets/local-images/image2.webp"
+                                                            src="/assets/local-images/image2.webp"
                                                             alt="Your Image"
                                                             className="rounded-3xl h-8 w-8 border-stone-500 border-2"
                                                         />
                                                         <img
-                                                            src="../src/assets/local-images/image4.webp"
+                                                            src="/assets/local-images/image4.webp"
                                                             alt="Your Image"
                                                             className="rounded-3xl h-8 w-8 border-stone-500 border-2"
                                                         />
@@ -971,17 +971,17 @@ const FilterableCard = () => {
                                                     {/* Product Options */}
                                                     <div className="flex justify-center gap-2 pt-3">
                                                         <img
-                                                            src="../src/assets/local-images/image5.webp"
+                                                            src="/assets/local-images/image5.webp"
                                                             alt="Your Image"
                                                             className="rounded-3xl h-9 w-9 border-stone-500 border-2"
                                                         />
                                                         <img
-                                                            src="../src/assets/local-images/image2.webp"
+                                                            src="/assets/local-images/image2.webp"
                                                             alt="Your Image"
                                                             className="rounded-3xl h-9 w-9 border-stone-500 border-2"
                                                         />
                                                         <img
-                                                            src="../src/assets/local-images/image4.webp"
+                                                            src="/assets/local-images/image4.webp"
                                                             alt="Your Image"
                                                             className="rounded-3xl h-9 w-9 border-stone-500 border-2"
                                                         />
@@ -1082,17 +1082,17 @@ const FilterableCard = () => {
                                                     {/* Product Options */}
                                                     <div className="flex justify-center gap-2 pt-3">
                                                         <img
-                                                            src="../src/assets/local-images/image5.webp"
+                                                            src="/assets/local-images/image5.webp"
                                                             alt="Your Image"
                                                             className="rounded-3xl h-9 w-9 border-stone-500 border-2"
                                                         />
                                                         <img
-                                                            src="../src/assets/local-images/image2.webp"
+                                                            src="/assets/local-images/image2.webp"
                                                             alt="Your Image"
                                                             className="rounded-3xl h-9 w-9 border-stone-500 border-2"
                                                         />
                                                         <img
-                                                            src="../src/assets/local-images/image4.webp"
+                                                            src="/assets/local-images/image4.webp"
                                                             alt="Your Image"
                                                             className="rounded-3xl h-9 w-9 border-stone-500 border-2"
                                                         />

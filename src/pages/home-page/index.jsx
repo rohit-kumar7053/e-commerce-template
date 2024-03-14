@@ -19,7 +19,7 @@ const Home = () => {
             {/* Banner Section Start */}
             <div className="relative w-full h-full">
                 <img
-                    src="../src/assets/local-images/banner-1.jpg"
+                    src="/assets/local-images/banner-1.jpg"
                     alt="Banner Image"
                     className="w-full h-full object-cover"
                 />
@@ -47,7 +47,7 @@ const Home = () => {
                     {/* Category 1  */}
                     <div className="relative w-96 h-48 overflow-hidden bg-black">
                         <img
-                            src="../src/assets/local-images/cat1.avif"
+                            src="/assets/local-images/cat1.avif"
                             alt=""
                             className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
                         />
@@ -59,7 +59,7 @@ const Home = () => {
                     {/* Category 2  */}
                     <div className="relative w-96 h-48 overflow-hidden bg-black">
                         <img
-                            src="../src/assets/local-images/cat2.avif"
+                            src="/assets/local-images/cat2.avif"
                             alt=""
                             className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
                         />
@@ -70,7 +70,7 @@ const Home = () => {
                     {/* Category 3  */}
                     <div className="relative w-96 h-48 overflow-hidden bg-black">
                         <img
-                            src="../src/assets/local-images/cat3.avif"
+                            src="/assets/local-images/cat3.avif"
                             alt=""
                             className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
                         />
@@ -88,7 +88,7 @@ const Home = () => {
             <div className="page3-container pb-5 h-full">
                 <div className="relative w-full my-14">
                     <img
-                        src="../src/assets/local-images/banner-2.webp"
+                        src="/assets/local-images/banner-2.webp"
                         alt="Banner Image"
                         className="w-full h-full object-cover"
                     />

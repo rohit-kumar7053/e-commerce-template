@@ -85,7 +85,7 @@ const Boughttogether = () => {
                             <div className="flex justify-center items-center text-center">
                                 <div className="w-48 p-4 mx-1 border-2 bg-white">
                                     <img
-                                        src="../src/assets/local-images/image1.webp"
+                                        src="/assets/local-images/image1.webp"
                                         alt="Image 1"
                                         className="w-full h-64 object-cover"
                                     />
@@ -118,7 +118,7 @@ const Boughttogether = () => {
                             <div className="flex justify-center items-center text-center">
                                 <div className="w-48 p-4 mx-1 border-2 bg-white">
                                     <img
-                                        src="../src/assets/local-images/image1.webp"
+                                        src="/assets/local-images/image1.webp"
                                         alt="Image 1"
                                         className="w-full h-64 object-cover"
                                     />
@@ -151,7 +151,7 @@ const Boughttogether = () => {
                             <div className="flex justify-center items-center text-center">
                                 <div className="w-48 p-4 mx-1 border-2 bg-white">
                                     <img
-                                        src="../src/assets/local-images/image1.webp"
+                                        src="/assets/local-images/image1.webp"
                                         alt="Image 1"
                                         className="w-full h-64 object-cover"
                                     />
@@ -184,7 +184,7 @@ const Boughttogether = () => {
                             <div className="flex justify-center items-center text-center">
                                 <div className="w-48 p-4 mx-1 border-2 bg-white">
                                     <img
-                                        src="../src/assets/local-images/image1.webp"
+                                        src="/assets/local-images/image1.webp"
                                         alt="Image 1"
                                         className="w-full h-64 object-cover"
                                     />
@@ -217,7 +217,7 @@ const Boughttogether = () => {
                             <div className="flex justify-center items-center text-center">
                                 <div className="w-48 p-4 mx-1 border-2 bg-white">
                                     <img
-                                        src="../src/assets/local-images/image1.webp"
+                                        src="/assets/local-images/image1.webp"
                                         alt="Image 1"
                                         className="w-full h-64 object-cover"
                                     />
@@ -250,7 +250,7 @@ const Boughttogether = () => {
                             <div className="flex justify-center items-center text-center">
                                 <div className="w-48 p-4 mx-1 border-2 bg-white">
                                     <img
-                                        src="../src/assets/local-images/image1.webp"
+                                        src="/assets/local-images/image1.webp"
                                         alt="Image 1"
                                         className="w-full h-64 object-cover"
                                     />

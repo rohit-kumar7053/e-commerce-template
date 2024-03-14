@@ -58,7 +58,7 @@ const Brendpartner = () => {
             >
                 <div className="bg-white p-4 text-center justify-center w-52 h-28">
                     <img
-                        src="../src/assets/local-images/brendlogo-1.webp"
+                        src="/assets/local-images/brendlogo-1.webp"
                         alt=""
                         className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
                     />
@@ -66,42 +66,42 @@ const Brendpartner = () => {
 
                 <div className="bg-white p-4 text-center justify-center w-52 h-28">
                     <img
-                        src="../src/assets/local-images/brendlogo-2.webp"
+                        src="/assets/local-images/brendlogo-2.webp"
                         alt=""
                         className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
                     />
                 </div>
                 <div className="bg-white p-4 text-center justify-center w-52 h-28">
                     <img
-                        src="../src/assets/local-images/brendlogo-3.webp"
+                        src="/assets/local-images/brendlogo-3.webp"
                         alt=""
                         className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
                     />
                 </div>
                 <div className="bg-white p-4 text-center justify-center w-52 h-28">
                     <img
-                        src="../src/assets/local-images/brendlogo-4.webp"
+                        src="/assets/local-images/brendlogo-4.webp"
                         alt=""
                         className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
                     />
                 </div>
                 <div className="bg-white p-4 text-center justify-center w-52 h-28">
                     <img
-                        src="../src/assets/local-images/brendlogo-5.webp"
+                        src="/assets/local-images/brendlogo-5.webp"
                         alt=""
                         className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
                     />
                 </div>
                 <div className="bg-white p-4 text-center justify-center w-52 h-28">
                     <img
-                        src="../src/assets/local-images/brendlogo-5.webp"
+                        src="/assets/local-images/brendlogo-5.webp"
                         alt=""
                         className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
                     />
                 </div>
                 <div className="bg-white p-4 text-center justify-center w-52 h-28">
                     <img
-                        src="../src/assets/local-images/brendlogo-5.webp"
+                        src="/assets/local-images/brendlogo-5.webp"
                         alt=""
                         className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
                     />

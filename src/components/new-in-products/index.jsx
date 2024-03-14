@@ -6,8 +6,8 @@ const NewinProducts = (prop) => {
     const products = [
         {
             id: 1,
-            defaultImage: "../src/assets/local-images/image1.webp",
-            hoverImage: "../src/assets/local-images/image2.webp",
+            defaultImage: "/assets/local-images/image1.webp",
+            hoverImage: "/assets/local-images/image2.webp",
             imagehoverbtnText: "Add To Cart",
             title: "MODERN AMUSEMENT",
             availProducts: "5",
@@ -16,8 +16,8 @@ const NewinProducts = (prop) => {
         },
         {
             id: 1,
-            defaultImage: "../src/assets/local-images/image2.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image2.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             imagehoverbtnText: "Notify ME",
             title: "MODERN AMUSEMENT",
             availProducts: "5",
@@ -27,8 +27,8 @@ const NewinProducts = (prop) => {
         },
         {
             id: 1,
-            defaultImage: "../src/assets/local-images/image3.webp",
-            hoverImage: "../src/assets/local-images/image4.webp",
+            defaultImage: "/assets/local-images/image3.webp",
+            hoverImage: "/assets/local-images/image4.webp",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
             availProducts: "5",
@@ -38,8 +38,8 @@ const NewinProducts = (prop) => {
         },
         {
             id: 1,
-            defaultImage: "../src/assets/local-images/image2.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image2.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
             availProducts: "5",
@@ -49,8 +49,8 @@ const NewinProducts = (prop) => {
         },
         {
             id: 1,
-            defaultImage: "../src/assets/local-images/image2.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image2.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
             availProducts: "5",
@@ -60,8 +60,8 @@ const NewinProducts = (prop) => {
         },
         {
             id: 1,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
             availProducts: "5",
@@ -71,8 +71,8 @@ const NewinProducts = (prop) => {
         },
         {
             id: 1,
-            defaultImage: "../src/assets/local-images/image2.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image2.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
             availProducts: "5",
@@ -81,8 +81,8 @@ const NewinProducts = (prop) => {
         },
         {
             id: 1,
-            defaultImage: "../src/assets/local-images/image4.webp",
-            hoverImage: "../src/assets/local-images/image1.webp",
+            defaultImage: "/assets/local-images/image4.webp",
+            hoverImage: "/assets/local-images/image1.webp",
             imagehoverbtnText: "Quick View",
             title: "MODERN AMUSEMENT",
             availProducts: "5",
@@ -157,17 +157,17 @@ const NewinProducts = (prop) => {
                                 {/* Product Options */}
                                 <div className="flex justify-center gap-2 pt-3">
                                     <img
-                                        src="../src/assets/local-images/image5.webp"
+                                        src="/assets/local-images/image5.webp"
                                         alt="Your Image"
                                         className="rounded-3xl h-9 w-9 border-stone-500 border-2"
                                     />
                                     <img
-                                        src="../src/assets/local-images/image2.webp"
+                                        src="/assets/local-images/image2.webp"
                                         alt="Your Image"
                                         className="rounded-3xl h-9 w-9 border-stone-500 border-2"
                                     />
                                     <img
-                                        src="../src/assets/local-images/image4.webp"
+                                        src="/assets/local-images/image4.webp"
                                         alt="Your Image"
                                         className="rounded-3xl h-9 w-9 border-stone-500 border-2"
                                     />

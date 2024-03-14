@@ -63,7 +63,7 @@ const Newin = () => {
                 <div className="w-3/4">
                     <div className="overflow-hidden">
                         <img
-                            src="../src/assets/local-images/newIn-banner.webp"
+                            src="/assets/local-images/newIn-banner.webp"
                             alt=""
                             className="h-full w-full hover:transition-transform duration-300 transform hover:scale-105"
                         />

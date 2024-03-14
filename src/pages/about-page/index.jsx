@@ -39,7 +39,7 @@ const About = () => {
                             <div className="relative w-full h-full flex justify-center items-center text-white">
                                 {/* Banner Section */}
                                 <img
-                                    src="../src/assets/local-images/slideshow-about.webp"
+                                    src="/assets/local-images/slideshow-about.webp"
                                     alt=""
                                     className="object-cover w-full h-full"
                                 />
@@ -47,7 +47,7 @@ const About = () => {
                                 <div className="absolute flex flex-col items-center justify-start p-10 w-3/4 h-full">
                                     <div className="flex text-center item-center gap-3 pt-10">
                                         <img
-                                            src="../src/assets/local-images/round_profil4.webp"
+                                            src="/assets/local-images/round_profil4.webp"
                                             alt="Profile"
                                             className="w-20 h-20 rounded-full object-cover"
                                         />
@@ -84,7 +84,7 @@ const About = () => {
                             <div className="relative w-full h-full flex justify-center items-center text-white">
                                 {/* Banner Section */}
                                 <img
-                                    src="../src/assets/local-images/slideshow-about.webp"
+                                    src="/assets/local-images/slideshow-about.webp"
                                     alt=""
                                     className="object-cover w-full h-full"
                                 />
@@ -92,7 +92,7 @@ const About = () => {
                                 <div className="absolute flex flex-col items-center justify-start p-10 w-3/4 h-full">
                                     <div className="flex text-center item-center gap-3 pt-10">
                                         <img
-                                            src="../src/assets/local-images/round_profil.webp"
+                                            src="/assets/local-images/round_profil.webp"
                                             alt="Profile"
                                             className="w-20 h-20 rounded-full object-cover"
                                         />
@@ -129,7 +129,7 @@ const About = () => {
                             <div className="relative w-full h-full flex justify-center items-center text-white">
                                 {/* Banner Section */}
                                 <img
-                                    src="../src/assets/local-images/slideshow-about.webp"
+                                    src="/assets/local-images/slideshow-about.webp"
                                     alt=""
                                     className="object-cover w-full h-full"
                                 />
@@ -137,7 +137,7 @@ const About = () => {
                                 <div className="absolute flex flex-col items-center justify-start p-10 w-3/4 h-full">
                                     <div className="flex text-center item-center gap-3 pt-10">
                                         <img
-                                            src="../src/assets/local-images/round_profil3.webp"
+                                            src="/assets/local-images/round_profil3.webp"
                                             alt="Profile"
                                             className="w-20 h-20 rounded-full object-cover"
                                         />
@@ -174,7 +174,7 @@ const About = () => {
                             <div className="relative w-full h-full flex justify-center items-center text-white">
                                 {/* Banner Section */}
                                 <img
-                                    src="../src/assets/local-images/slideshow-about.webp"
+                                    src="/assets/local-images/slideshow-about.webp"
                                     alt=""
                                     className="object-cover w-full h-full"
                                 />
@@ -182,7 +182,7 @@ const About = () => {
                                 <div className="absolute flex flex-col items-center justify-start p-10 w-3/4 h-full">
                                     <div className="flex text-center item-center gap-3 pt-10">
                                         <img
-                                            src="../src/assets/local-images/round_profil2.webp"
+                                            src="/assets/local-images/round_profil2.webp"
                                             alt="Profile"
                                             className="w-20 h-20 rounded-full object-cover"
                                         />
@@ -243,7 +243,7 @@ const About = () => {
                         <div className="flex flex-col item-center text-center gap-5">
                             <div className="flex justify-center items-center text-center">
                                 <img
-                                    src="../src/assets/local-images/dress-hanger.webp"
+                                    src="/assets/local-images/dress-hanger.webp"
                                     alt=""
                                     className=""
                                 />
@@ -265,7 +265,7 @@ const About = () => {
                         <div className="flex flex-col item-center text-center gap-5">
                             <div className="flex justify-center items-center text-center">
                                 <img
-                                    src="../src/assets/local-images/dress-stand.webp"
+                                    src="/assets/local-images/dress-stand.webp"
                                     alt=""
                                     className=""
                                 />
@@ -287,7 +287,7 @@ const About = () => {
                         <div className="flex flex-col item-center text-center gap-5">
                             <div className=" flex justify-center items-center text-center">
                                 <img
-                                    src="../src/assets/local-images/dress-tap.webp"
+                                    src="/assets/local-images/dress-tap.webp"
                                     alt=""
                                     className=""
                                 />
@@ -357,7 +357,7 @@ const About = () => {
                                         <div className="w-1/2 bg-white flex justify-center items-center">
                                             <div className="image-card relative overflow-hidden w-full h-full">
                                                 <img
-                                                    src="../src/assets/local-images/about-store.webp"
+                                                    src="/assets/local-images/about-store.webp"
                                                     alt=""
                                                     className="object-cover transition-transform duration-1000 transform hover:scale-105"
                                                 />
@@ -375,7 +375,7 @@ const About = () => {
                                         <div className="w-1/2 bg-white flex justify-center items-center">
                                             <div className="image-card relative overflow-hidden w-full h-full">
                                                 <img
-                                                    src="../src/assets/local-images/about-store.webp"
+                                                    src="/assets/local-images/about-store.webp"
                                                     alt=""
                                                     className="object-cover transition-transform duration-1000 transform hover:scale-105"
                                                 />
@@ -447,7 +447,7 @@ const About = () => {
                                         <div className="w-1/2 bg-white flex justify-center items-center">
                                             <div className="image-card relative overflow-hidden w-full h-full">
                                                 <img
-                                                    src="../src/assets/local-images/about-store.webp"
+                                                    src="/assets/local-images/about-store.webp"
                                                     alt=""
                                                     className="object-cover transition-transform duration-1000 transform hover:scale-105"
                                                 />
@@ -468,7 +468,7 @@ const About = () => {
                         <div className="w-1/2 bg-white flex justify-center items-center">
                             <div className="image-card relative overflow-hidden w-full h-full">
                                 <img
-                                    src="../src/assets/local-images/about-contact.webp"
+                                    src="/assets/local-images/about-contact.webp"
                                     alt=""
                                     className="object-cover w-full h-full transition-transform duration-1000 transform hover:scale-105"
                                 />

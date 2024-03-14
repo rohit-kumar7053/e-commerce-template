@@ -150,27 +150,27 @@ const Footer = () => {
                     <div className="flex gap-5">
                         <img
                             className="h-8 w-12 transition-transform transform hover:scale-110"
-                            src="../src/assets/local-images/flogo-1.jpg"
+                            src="/assets/local-images/flogo-1.jpg"
                             alt="Logo 1"
                         />
                         <img
                             className="h-8 w-12 transition-transform transform hover:scale-110"
-                            src="../src/assets/local-images/flogo-2.jpg"
+                            src="/assets/local-images/flogo-2.jpg"
                             alt="Logo 2"
                         />
                         <img
                             className="h-8 w-12 transition-transform transform hover:scale-110"
-                            src="../src/assets/local-images/flogo-3.jpg"
+                            src="/assets/local-images/flogo-3.jpg"
                             alt="Logo 3"
                         />
                         <img
                             className="h-8 w-12 transition-transform transform hover:scale-110"
-                            src="../src/assets/local-images/flogo-4.webp"
+                            src="/assets/local-images/flogo-4.webp"
                             alt="Logo 4"
                         />
                         <img
                             className="h-8 w-12 transition-transform transform hover:scale-110"
-                            src="../src/assets/local-images/flogo-5.jpg"
+                            src="/assets/local-images/flogo-5.jpg"
                             alt="Logo 5"
                         />
                     </div>

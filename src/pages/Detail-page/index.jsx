@@ -35,14 +35,14 @@ import ShareMainPopup from "../../components/share-popup";
 const ProductDetails = ({ price }) => {
     // Main Image Carousal.
     const [mainImage, setMainImage] = useState(
-        "../src/assets/local-images/image14.webp"
+        "/assets/local-images/image14.webp"
     );
     const options = [
-        { id: 1, src: "../src/assets/local-images/image7.webp" },
-        { id: 2, src: "../src/assets/local-images/image5.webp" },
-        { id: 3, src: "../src/assets/local-images/image6.webp" },
-        { id: 4, src: "../src/assets/local-images/image3.webp" },
-        { id: 5, src: "../src/assets/local-images/image10.webp" },
+        { id: 1, src: "/assets/local-images/image7.webp" },
+        { id: 2, src: "/assets/local-images/image5.webp" },
+        { id: 3, src: "/assets/local-images/image6.webp" },
+        { id: 4, src: "/assets/local-images/image3.webp" },
+        { id: 5, src: "/assets/local-images/image10.webp" },
     ];
 
     const handleOptionClick = (src) => {
@@ -255,7 +255,7 @@ const ProductDetails = ({ price }) => {
                                         onClick={() =>
                                             handleColorChange("black")
                                         }
-                                        src="../src/assets/local-images/image1.webp"
+                                        src="/assets/local-images/image1.webp"
                                         alt="Image"
                                         className="{`border border-gray-300 rounded-full w-10 h-10 focus:outline-none ${clicked ? 'border-black' : ''}`} w-10 h-10 ml-1 p-0.5 rounded-full object-cover border-2 border-gray-300 focus:outline-none"
                                     />
@@ -263,7 +263,7 @@ const ProductDetails = ({ price }) => {
                                         onClick={() =>
                                             handleColorChange("white")
                                         }
-                                        src="../src/assets/local-images/image3.webp"
+                                        src="/assets/local-images/image3.webp"
                                         alt="Image"
                                         className="{`border-2 border-gray-300 rounded-full w-10 h-10 focus:outline-none ${clicked ? 'border-black' : ''}`} w-10 h-10 ml-1 p-0.5 rounded-full object-cover border-2 border-gray-00 focus:outline-none"
                                     />
@@ -271,7 +271,7 @@ const ProductDetails = ({ price }) => {
                                         onClick={() =>
                                             handleColorChange("Darkorange")
                                         }
-                                        src="../src/assets/local-images/image2.webp"
+                                        src="/assets/local-images/image2.webp"
                                         alt="Image"
                                         className="w-10 h-10 ml-1 p-0.5 rounded-full object-cover border-2 border-gray-300 focus:outline-none"
                                     />
@@ -279,7 +279,7 @@ const ProductDetails = ({ price }) => {
                                         onClick={() =>
                                             handleColorChange("Cadetblue")
                                         }
-                                        src="../src/assets/local-images/image4.webp"
+                                        src="/assets/local-images/image4.webp"
                                         alt="Image"
                                         className="w-10 h-10 ml-1 p-0.5 rounded-full object-cover border-2 border-gray-300 focus:outline-none"
                                     />
@@ -451,22 +451,22 @@ const ProductDetails = ({ price }) => {
                                 </div>
                                 <div className="flex justify-between gap-2 h-24 w-24 my-5">
                                     <img
-                                        src="../src/assets/local-images/pay-logo1.jpg"
+                                        src="/assets/local-images/pay-logo1.jpg"
                                         alt="Image 1"
                                         className="object-cover h-full w-full"
                                     />
                                     <img
-                                        src="../src/assets/local-images/pay-logo1.jpg"
+                                        src="/assets/local-images/pay-logo1.jpg"
                                         alt="Image 1"
                                         className="object-cover h-full w-full"
                                     />
                                     <img
-                                        src="../src/assets/local-images/pay-logo1.jpg"
+                                        src="/assets/local-images/pay-logo1.jpg"
                                         alt="Image 1"
                                         className="object-cover h-full w-full"
                                     />
                                     <img
-                                        src="../src/assets/local-images/pay-logo1.jpg"
+                                        src="/assets/local-images/pay-logo1.jpg"
                                         alt="Image 1"
                                         className="object-cover h-full w-full"
                                     />

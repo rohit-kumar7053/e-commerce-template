@@ -39,11 +39,11 @@ const SideFeaturedProducts = () => {
                 <AccordionBody>
                     <div className="flex flex-col gap-5 text-sm mb-5 ">
                         <img
-                            src="../src/assets/local-images/blog-sidebar-1.avif"
+                            src="/assets/local-images/blog-sidebar-1.avif"
                             alt=""
                         />
                         <img
-                            src="../src/assets/local-images/blog-sidebar-2.avif"
+                            src="/assets/local-images/blog-sidebar-2.avif"
                             alt=""
                         />
                     </div>

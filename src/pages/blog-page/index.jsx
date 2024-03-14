@@ -9,7 +9,7 @@ const BlogCard = ({ title, image, date, categories, description }) => {
         //     <div className="flex justify-between items-center text-center gap-12 mx-12 p-6 border-2 border-black shadow-md">
         //         <div className="">
         //             <img
-        //                 src="../src/assets/local-images/blog1.jpg"
+        //                 src="/assets/local-images/blog1.jpg"
         //                 alt=""
         //                 className="object-cover hover:transition duration-500 scale-105"
         //             />
@@ -55,7 +55,7 @@ const BlogCard = ({ title, image, date, categories, description }) => {
                     <div className="flex justify-start items-center text-center gap-8">
                         <div className="w-1/3">
                             <img
-                                src="../src/assets/local-images/blog1.jpg"
+                                src="/assets/local-images/blog1.jpg"
                                 alt=""
                                 className=""
                             />
@@ -89,7 +89,7 @@ const BlogCard = ({ title, image, date, categories, description }) => {
                     <div className="flex justify-start items-center text-center gap-8">
                         <div className="w-1/3">
                             <img
-                                src="../src/assets/local-images/blog3.jpg"
+                                src="/assets/local-images/blog3.jpg"
                                 alt=""
                                 className=""
                             />
@@ -123,7 +123,7 @@ const BlogCard = ({ title, image, date, categories, description }) => {
                     <div className="flex justify-start items-center text-center gap-8">
                         <div className="w-1/3">
                             <img
-                                src="../src/assets/local-images/blog2.jpg"
+                                src="/assets/local-images/blog2.jpg"
                                 alt=""
                                 className=""
                             />
@@ -157,7 +157,7 @@ const BlogCard = ({ title, image, date, categories, description }) => {
                     <div className="flex justify-start items-center text-center gap-8">
                         <div className="w-1/3">
                             <img
-                                src="../src/assets/local-images/blog1.jpg"
+                                src="/assets/local-images/blog1.jpg"
                                 alt=""
                                 className=""
                             />
@@ -249,11 +249,11 @@ const BlogCard = ({ title, image, date, categories, description }) => {
                             <hr className="flex-grow my-5 border-t border-gray-800"></hr>
                             <div className="flex flex-col gap-5 text-sm mb-5 ">
                                 <img
-                                    src="../src/assets/local-images/blog-sidebar-1.avif"
+                                    src="/assets/local-images/blog-sidebar-1.avif"
                                     alt=""
                                 />
                                 <img
-                                    src="../src/assets/local-images/blog-sidebar-2.avif"
+                                    src="/assets/local-images/blog-sidebar-2.avif"
                                     alt=""
                                 />
                             </div>

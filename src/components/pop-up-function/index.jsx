@@ -67,7 +67,7 @@ function Popup() {
                     >
                         <div className="h-16 w-16">
                             <img
-                                src="../src/assets/local-images/size-ruler.png"
+                                src="/assets/local-images/size-ruler.png"
                                 alt=""
                                 className="object-cover h-full w-full mr-4"
                             />
@@ -91,7 +91,7 @@ function Popup() {
                     >
                         <div className="h-8 w-8">
                             <img
-                                src="../src/assets/local-images/color-wheel.jpg"
+                                src="/assets/local-images/color-wheel.jpg"
                                 alt=""
                                 className="object-cover h-full w-full"
                             />
