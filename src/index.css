@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* impotant Note:  Ye Css Registration  page k liye hai */
+
+/* Adjust the width and height of each pagination bullet */
+.swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+}
+
+/* Change the color of the pagination bullet */
+.swiper-pagination-bullet {
+    background-color: white;
+    border: 2px solid black;
+}
+
+/* Adjust the opacity of the pagination bullet */
+.swiper-pagination-bullet {
+    opacity: 0.5;
+}
+
+/* Make the bullet circular */
+.swiper-pagination-bullet {
+    border-radius: 50%;
+}
+
+/* Change the color of the active pagination bullet */
+.swiper-pagination-bullet-active {
+    background-color: black;
+    border: 2px solid black;
+}
