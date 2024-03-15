@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import SortingSelector from "../shorting-filter";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaGripLinesVertical } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const FilterableCard = () => {
     // Option-1 Defult
@@ -641,6 +642,7 @@ const FilterableCard = () => {
         const displayedProducts = products.slice(startIndex - 1, endIndex);
         return (
             <section className="container">
+                {/* Top Filter */}
                 <div className="flex justify-between items-center text-center mb-10">
                     {/* VIEW AS */}
                     <div className="flex items-center justify-start gap-2">
@@ -774,20 +776,20 @@ const FilterableCard = () => {
                 </div>
                 {/* Display the filtered products */}
                 <div className="flex justify-between items-start text-start">
-                    <div className="container">
-                        {viewOption === "option1" && (
-                            <section>
-                                <div className="overflow-hidden">
-                                    <div className="grid grid-cols-1">
-                                        {displayedProducts.map((product) => (
-                                            <div
-                                                key={product.id}
-                                                className="flex h-full"
-                                            >
-                                                {/* Image Container */}
-                                                <div className="w-80 h-80">
-                                                    {/* Increased width and height  */}
-                                                    <div className="relative w-full h-80 overflow-hidden transition-opacity duration-300 group">
+                    {viewOption === "option1" && (
+                        <section>
+                            <div className="overflow-hidden">
+                                <div className="grid grid-cols-1">
+                                    {displayedProducts.map((product) => (
+                                        <div
+                                            key={product.id}
+                                            className="flex h-full"
+                                        >
+                                            {/* Image Container */}
+                                            <div className="w-80 h-80">
+                                                {/* Increased width and height  */}
+                                                <div className="relative w-full h-80 overflow-hidden transition-opacity duration-300 group">
+                                                    <Link to="/product-details">
                                                         <img
                                                             src={
                                                                 product.defaultImage
@@ -802,15 +804,17 @@ const FilterableCard = () => {
                                                             alt="hover"
                                                             className="absolute h-full w-full object-cover transition-opacity opacity-0 group-hover:opacity-100 hover:transition-transform duration-1000 transform hover:scale-105"
                                                         />
-                                                    </div>
+                                                    </Link>
                                                 </div>
-                                                {/* Content Container */}
-                                                <div className="w-full h-96 px-8 text-black">
-                                                    <h2 className="mb-3 text-xs text-gray-500 font">
-                                                        {product.title}
-                                                        {product.id}
-                                                    </h2>
-                                                    <div className="flex justify-between text-center items-center mb-4 text-base hover:underline underline-offset-4">
+                                            </div>
+                                            {/* Content Container */}
+                                            <div className="w-full h-96 px-8 text-black">
+                                                <h2 className="mb-3 text-xs text-gray-500 font">
+                                                    {product.title}
+                                                    {product.id}
+                                                </h2>
+                                                <div className="flex justify-between text-center items-center mb-4 text-base hover:underline underline-offset-4">
+                                                    <Link to="/product-details">
                                                         <span className="">
                                                             (Product{" "}
                                                             {
@@ -821,48 +825,111 @@ const FilterableCard = () => {
                                                                 product.description
                                                             }
                                                         </span>
-                                                    </div>
-                                                    <div className="text-sm font-normal text-gray-600">
-                                                        {product.productDetails}
-                                                    </div>
-                                                    <div className="mt-2">
-                                                        <div className="relative inline-block">
-                                                            <span className="absolute inset-x-0 top-1/2 h-0.5 bg-stone-500 transform -translate-y-1/2"></span>
-                                                            <span className="text-lg text-stone-400">
-                                                                {
-                                                                    product.cutmoney
-                                                                }
-                                                            </span>
-                                                        </div>
-                                                        <span className="font-bold">
-                                                            <span className=" text-red-600">
-                                                                {product.price}
-                                                            </span>
+                                                    </Link>
+                                                </div>
+                                                <div className="text-sm font-normal text-gray-600">
+                                                    {product.productDetails}
+                                                </div>
+                                                <div className="mt-2">
+                                                    <div className="relative inline-block">
+                                                        <span className="absolute inset-x-0 top-1/2 h-0.5 bg-stone-500 transform -translate-y-1/2"></span>
+                                                        <span className="text-lg text-stone-400">
+                                                            {product.cutmoney}
                                                         </span>
                                                     </div>
-                                                    {/* Product Options */}
-                                                    <div className="flex justify-start gap-2 pt-3">
-                                                        <img
-                                                            src="/assets/local-images/image5.webp"
-                                                            alt="Your Image"
-                                                            className="rounded-3xl h-8 w-8 border-stone-500 border-2"
-                                                        />
-                                                        <img
-                                                            src="/assets/local-images/image2.webp"
-                                                            alt="Your Image"
-                                                            className="rounded-3xl h-8 w-8 border-stone-500 border-2"
-                                                        />
-                                                        <img
-                                                            src="/assets/local-images/image4.webp"
-                                                            alt="Your Image"
-                                                            className="rounded-3xl h-8 w-8 border-stone-500 border-2"
-                                                        />
-                                                    </div>
-                                                    <button className="text-black font-bold py-2 px-4 mt-5 w-52 bg-white hover:bg-black hover:text-white border border-black">
-                                                        {product.btnText}
+                                                    <span className="font-bold">
+                                                        <span className=" text-red-600">
+                                                            {product.price}
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                                {/* Product Options */}
+                                                <div className="flex justify-start gap-2 pt-3">
+                                                    <img
+                                                        src="/assets/local-images/image5.webp"
+                                                        alt="Your Image"
+                                                        className="rounded-3xl h-8 w-8 border-stone-500 border-2"
+                                                    />
+                                                    <img
+                                                        src="/assets/local-images/image2.webp"
+                                                        alt="Your Image"
+                                                        className="rounded-3xl h-8 w-8 border-stone-500 border-2"
+                                                    />
+                                                    <img
+                                                        src="/assets/local-images/image4.webp"
+                                                        alt="Your Image"
+                                                        className="rounded-3xl h-8 w-8 border-stone-500 border-2"
+                                                    />
+                                                </div>
+                                                <button className="text-black font-bold py-2 px-4 mt-5 w-52 bg-white hover:bg-black hover:text-white border border-black">
+                                                    {product.btnText}
+                                                </button>
+                                                {/* Compare Checkbox */}
+                                                <div className="mt-2">
+                                                    <input
+                                                        type="checkbox"
+                                                        id={`compare_${product.id}`}
+                                                        className="mr-2"
+                                                    />
+                                                    <label
+                                                        className="text-sm"
+                                                        htmlFor={`compare_${product.id}`}
+                                                    >
+                                                        Compare
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                            <div class="flex flex-col justify-center items-center mt-10">
+                                <div class="ml-4 text-sm text-gray-600">
+                                    Showing {startIndex} - {endIndex} of{" "}
+                                    {totalProducts} total
+                                </div>
+                                <button
+                                    class="text-black font-bold text-sm py-3 px-4 mt-5 w-72 uppercase bg-white hover:bg-black hover:text-white border border-black"
+                                    onclick="showMoreItems()"
+                                >
+                                    Show More
+                                </button>
+                            </div>
+                        </section>
+                        // <NewinProducts />
+                    )}
+                    {viewOption === "option2" && (
+                        <section>
+                            <div className="overflow-hidden">
+                                <div className="grid grid-cols-2 gap-x-10 gap-y-12 place-items-center">
+                                    {displayedProducts.map((product) => (
+                                        <div
+                                            key={product.id}
+                                            className="w-68 h-full"
+                                        >
+                                            <div className="relative w-full h-screen overflow-hidden transition-opacity duration-300 group">
+                                                <Link to="/product-details">
+                                                    <img
+                                                        src={
+                                                            product.defaultImage
+                                                        }
+                                                        alt="default"
+                                                        className="absolute h-full w-full object-cover transition-opacity duration-700 opacity-100 group-hover:opacity-0"
+                                                    />
+                                                    <img
+                                                        src={product.hoverImage}
+                                                        alt="hover"
+                                                        className="absolute h-full w-full object-cover transition-opacity opacity-0 group-hover:opacity-100 hover:transition-transform duration-1000 transform hover:scale-105"
+                                                    />
+                                                </Link>
+                                                <div className="h-32 w-full absolute bottom-0 left-0 bg-white transition duration-700 opacity-0 group-hover:opacity-100">
+                                                    <button className="text-black font-bold py-2 px-4 w-full absolute bottom-16 left-0 bg-white hover:bg-black hover:text-white border-2 border-black transition duration-700 opacity-0 group-hover:opacity-100">
+                                                        {
+                                                            product.imagehoverbtnText
+                                                        }
                                                     </button>
                                                     {/* Compare Checkbox */}
-                                                    <div className="mt-2">
+                                                    <div className="flex justify-center mt-2 w-full absolute bottom-5 left-0">
                                                         <input
                                                             type="checkbox"
                                                             id={`compare_${product.id}`}
@@ -877,34 +944,83 @@ const FilterableCard = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                        ))}
-                                    </div>
+                                            <div className=" w-full h-auto px-2 my-4 text-black">
+                                                <h2 className="text-xs flex justify-center my-3 text-gray-500">
+                                                    {product.title}
+                                                </h2>
+                                                <div className="flex justify-between text-center items-center px-8 text-xs hover:underline underline-offset-4">
+                                                    <Link to="/product-details">
+                                                        <span className="">
+                                                            (Product{" "}
+                                                            {
+                                                                product.availProducts
+                                                            }
+                                                            )
+                                                            {
+                                                                product.description
+                                                            }
+                                                        </span>
+                                                    </Link>
+                                                </div>
+                                                <div className="flex gap-5 justify-center text-center mt-2">
+                                                    <div className="relative inline-block">
+                                                        <span className="absolute inset-x-0 top-1/2 h-0.5 bg-stone-500 transform -translate-y-1/2"></span>
+                                                        <span className="text-lg text-stone-400">
+                                                            {product.cutmoney}
+                                                        </span>
+                                                    </div>
+                                                    <span className="block font-bold text-red-600">
+                                                        {product.price}
+                                                    </span>
+                                                </div>
+                                                {/* Product Options */}
+                                                <div className="flex justify-center gap-2 pt-3">
+                                                    <img
+                                                        src="/assets/local-images/image5.webp"
+                                                        alt="Your Image"
+                                                        className="rounded-3xl h-9 w-9 border-stone-500 border-2"
+                                                    />
+                                                    <img
+                                                        src="/assets/local-images/image2.webp"
+                                                        alt="Your Image"
+                                                        className="rounded-3xl h-9 w-9 border-stone-500 border-2"
+                                                    />
+                                                    <img
+                                                        src="/assets/local-images/image4.webp"
+                                                        alt="Your Image"
+                                                        className="rounded-3xl h-9 w-9 border-stone-500 border-2"
+                                                    />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))}
                                 </div>
-                                <div class="flex flex-col justify-center items-center mt-10">
-                                    <div class="ml-4 text-sm text-gray-600">
-                                        Showing {startIndex} - {endIndex} of{" "}
-                                        {totalProducts} total
-                                    </div>
-                                    <button
-                                        class="text-black font-bold text-sm py-3 px-4 mt-5 w-72 uppercase bg-white hover:bg-black hover:text-white border border-black"
-                                        onclick="showMoreItems()"
-                                    >
-                                        Show More
-                                    </button>
+                            </div>
+                            <div class="flex flex-col justify-center items-center mt-10">
+                                <div class="ml-4 text-sm text-gray-600">
+                                    Showing {startIndex} - {endIndex} of{" "}
+                                    {totalProducts} total
                                 </div>
-                            </section>
-                            // <NewinProducts />
-                        )}
-                        {viewOption === "option2" && (
-                            <section>
-                                <div className="overflow-hidden">
-                                    <div className="grid grid-cols-2 gap-x-10 gap-y-12 place-items-center">
-                                        {displayedProducts.map((product) => (
-                                            <div
-                                                key={product.id}
-                                                className="w-68 h-full"
-                                            >
-                                                <div className="relative w-full h-screen overflow-hidden transition-opacity duration-300 group">
+                                <button
+                                    class="text-black font-bold text-sm py-3 px-4 mt-5 w-72 uppercase bg-white hover:bg-black hover:text-white border border-black"
+                                    onclick="showMoreItems()"
+                                >
+                                    Show More
+                                </button>
+                            </div>
+                        </section>
+                    )}
+                    {viewOption === "option3" && (
+                        <section>
+                            <div className="overflow-hidden">
+                                <div className="grid grid-cols-3 gap-x-10 place-items-center">
+                                    {displayedProducts.map((product) => (
+                                        <div
+                                            key={product.id}
+                                            className="relative w-68 h-96 mb-48"
+                                        >
+                                            <div className="relative w-68 h-96 overflow-hidden transition-opacity duration-300 group">
+                                                <Link to="/product-details">
                                                     <img
                                                         src={
                                                             product.defaultImage
@@ -917,144 +1033,36 @@ const FilterableCard = () => {
                                                         alt="hover"
                                                         className="absolute h-full w-full object-cover transition-opacity opacity-0 group-hover:opacity-100 hover:transition-transform duration-1000 transform hover:scale-105"
                                                     />
-                                                    <div className="h-32 w-full absolute bottom-0 left-0 bg-white transition duration-700 opacity-0 group-hover:opacity-100">
-                                                        <button className="text-black font-bold py-2 px-4 w-full absolute bottom-16 left-0 bg-white hover:bg-black hover:text-white border-2 border-black transition duration-700 opacity-0 group-hover:opacity-100">
-                                                            {
-                                                                product.imagehoverbtnText
-                                                            }
-                                                        </button>
-                                                        {/* Compare Checkbox */}
-                                                        <div className="flex justify-center mt-2 w-full absolute bottom-5 left-0">
-                                                            <input
-                                                                type="checkbox"
-                                                                id={`compare_${product.id}`}
-                                                                className="mr-2"
-                                                            />
-                                                            <label
-                                                                className="text-sm"
-                                                                htmlFor={`compare_${product.id}`}
-                                                            >
-                                                                Compare
-                                                            </label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className=" w-full h-auto px-2 my-4 text-black">
-                                                    <h2 className="text-xs flex justify-center my-3 text-gray-500">
-                                                        {product.title}
-                                                    </h2>
-                                                    <div className="flex justify-between text-center items-center px-8 text-xs hover:underline underline-offset-4">
-                                                        <span className="">
-                                                            (Product{" "}
-                                                            {
-                                                                product.availProducts
-                                                            }
-                                                            )
-                                                            {
-                                                                product.description
-                                                            }
-                                                        </span>
-                                                    </div>
-                                                    <div className="flex gap-5 justify-center text-center mt-2">
-                                                        <div className="relative inline-block">
-                                                            <span className="absolute inset-x-0 top-1/2 h-0.5 bg-stone-500 transform -translate-y-1/2"></span>
-                                                            <span className="text-lg text-stone-400">
-                                                                {
-                                                                    product.cutmoney
-                                                                }
-                                                            </span>
-                                                        </div>
-                                                        <span className="block font-bold text-red-600">
-                                                            {product.price}
-                                                        </span>
-                                                    </div>
-                                                    {/* Product Options */}
-                                                    <div className="flex justify-center gap-2 pt-3">
-                                                        <img
-                                                            src="/assets/local-images/image5.webp"
-                                                            alt="Your Image"
-                                                            className="rounded-3xl h-9 w-9 border-stone-500 border-2"
-                                                        />
-                                                        <img
-                                                            src="/assets/local-images/image2.webp"
-                                                            alt="Your Image"
-                                                            className="rounded-3xl h-9 w-9 border-stone-500 border-2"
-                                                        />
-                                                        <img
-                                                            src="/assets/local-images/image4.webp"
-                                                            alt="Your Image"
-                                                            className="rounded-3xl h-9 w-9 border-stone-500 border-2"
-                                                        />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        ))}
-                                    </div>
-                                </div>
-                                <div class="flex flex-col justify-center items-center mt-10">
-                                    <div class="ml-4 text-sm text-gray-600">
-                                        Showing {startIndex} - {endIndex} of{" "}
-                                        {totalProducts} total
-                                    </div>
-                                    <button
-                                        class="text-black font-bold text-sm py-3 px-4 mt-5 w-72 uppercase bg-white hover:bg-black hover:text-white border border-black"
-                                        onclick="showMoreItems()"
-                                    >
-                                        Show More
-                                    </button>
-                                </div>
-                            </section>
-                        )}
-                        {viewOption === "option3" && (
-                            <section>
-                                <div className="overflow-hidden">
-                                    <div className="grid grid-cols-3 gap-x-10 place-items-center">
-                                        {displayedProducts.map((product) => (
-                                            <div
-                                                key={product.id}
-                                                className="relative w-68 h-96 mb-48"
-                                            >
-                                                <div className="relative w-68 h-96 overflow-hidden transition-opacity duration-300 group">
-                                                    <img
-                                                        src={
-                                                            product.defaultImage
+                                                </Link>
+                                                {/* Image Hover Btn */}
+                                                <div className="h-24 w-full absolute bottom-0 left-0 bg-white transition duration-700 opacity-0 group-hover:opacity-100">
+                                                    <button className="text-black font-bold py-2 px-4 w-full absolute bottom-10 left-0 bg-white hover:bg-black hover:text-white border-2 border-black transition duration-700 opacity-0 group-hover:opacity-100">
+                                                        {
+                                                            product.imagehoverbtnText
                                                         }
-                                                        alt="default"
-                                                        className="absolute h-full w-full object-cover transition-opacity duration-700 opacity-100 group-hover:opacity-0"
-                                                    />
-                                                    <img
-                                                        src={product.hoverImage}
-                                                        alt="hover"
-                                                        className="absolute h-full w-full object-cover transition-opacity opacity-0 group-hover:opacity-100 hover:transition-transform duration-1000 transform hover:scale-105"
-                                                    />
-                                                    {/* Image Hover Btn */}
-                                                    <div className="h-24 w-full absolute bottom-0 left-0 bg-white transition duration-700 opacity-0 group-hover:opacity-100">
-                                                        <button className="text-black font-bold py-2 px-4 w-full absolute bottom-10 left-0 bg-white hover:bg-black hover:text-white border-2 border-black transition duration-700 opacity-0 group-hover:opacity-100">
-                                                            {
-                                                                product.imagehoverbtnText
-                                                            }
-                                                        </button>
-                                                        {/* Compare Checkbox */}
-                                                        <div className="flex justify-center mt-2 w-full absolute bottom-2 left-0">
-                                                            <input
-                                                                type="checkbox"
-                                                                id={`compare_${product.id}`}
-                                                                className="mr-2"
-                                                            />
-                                                            <label
-                                                                className="text-sm"
-                                                                htmlFor={`compare_${product.id}`}
-                                                            >
-                                                                Compare
-                                                            </label>
-                                                        </div>
+                                                    </button>
+                                                    {/* Compare Checkbox */}
+                                                    <div className="flex justify-center mt-2 w-full absolute bottom-2 left-0">
+                                                        <input
+                                                            type="checkbox"
+                                                            id={`compare_${product.id}`}
+                                                            className="mr-2"
+                                                        />
+                                                        <label
+                                                            className="text-sm"
+                                                            htmlFor={`compare_${product.id}`}
+                                                        >
+                                                            Compare
+                                                        </label>
                                                     </div>
                                                 </div>
-                                                <div className=" w-full h-auto px-2 my-4 text-black">
-                                                    <h2 className="text-xs flex justify-center my-3 text-gray-500">
-                                                        {product.title}
-                                                    </h2>
-                                                    <div className="flex justify-between text-center items-center px-8 text-xs hover:underline underline-offset-4">
+                                            </div>
+                                            <div className=" w-full h-auto px-2 my-4 text-black">
+                                                <h2 className="text-xs flex justify-center my-3 text-gray-500">
+                                                    {product.title}
+                                                </h2>
+                                                <div className="flex justify-between text-center items-center px-8 text-xs hover:underline underline-offset-4">
+                                                    <Link to="/product-details">
                                                         <span className="">
                                                             (Product{" "}
                                                             {
@@ -1065,58 +1073,56 @@ const FilterableCard = () => {
                                                                 product.description
                                                             }
                                                         </span>
-                                                    </div>
-                                                    <div className="flex gap-5 justify-center text-center mt-2">
-                                                        <div className="relative inline-block">
-                                                            <span className="absolute inset-x-0 top-1/2 h-0.5 bg-stone-500 transform -translate-y-1/2"></span>
-                                                            <span className="text-lg text-stone-400">
-                                                                {
-                                                                    product.cutmoney
-                                                                }
-                                                            </span>
-                                                        </div>
-                                                        <span className="block font-bold text-red-600">
-                                                            {product.price}
+                                                    </Link>
+                                                </div>
+                                                <div className="flex gap-5 justify-center text-center mt-2">
+                                                    <div className="relative inline-block">
+                                                        <span className="absolute inset-x-0 top-1/2 h-0.5 bg-stone-500 transform -translate-y-1/2"></span>
+                                                        <span className="text-lg text-stone-400">
+                                                            {product.cutmoney}
                                                         </span>
                                                     </div>
-                                                    {/* Product Options */}
-                                                    <div className="flex justify-center gap-2 pt-3">
-                                                        <img
-                                                            src="/assets/local-images/image5.webp"
-                                                            alt="Your Image"
-                                                            className="rounded-3xl h-9 w-9 border-stone-500 border-2"
-                                                        />
-                                                        <img
-                                                            src="/assets/local-images/image2.webp"
-                                                            alt="Your Image"
-                                                            className="rounded-3xl h-9 w-9 border-stone-500 border-2"
-                                                        />
-                                                        <img
-                                                            src="/assets/local-images/image4.webp"
-                                                            alt="Your Image"
-                                                            className="rounded-3xl h-9 w-9 border-stone-500 border-2"
-                                                        />
-                                                    </div>
+                                                    <span className="block font-bold text-red-600">
+                                                        {product.price}
+                                                    </span>
+                                                </div>
+                                                {/* Product Options */}
+                                                <div className="flex justify-center gap-2 pt-3">
+                                                    <img
+                                                        src="/assets/local-images/image5.webp"
+                                                        alt="Your Image"
+                                                        className="rounded-3xl h-9 w-9 border-stone-500 border-2"
+                                                    />
+                                                    <img
+                                                        src="/assets/local-images/image2.webp"
+                                                        alt="Your Image"
+                                                        className="rounded-3xl h-9 w-9 border-stone-500 border-2"
+                                                    />
+                                                    <img
+                                                        src="/assets/local-images/image4.webp"
+                                                        alt="Your Image"
+                                                        className="rounded-3xl h-9 w-9 border-stone-500 border-2"
+                                                    />
                                                 </div>
                                             </div>
-                                        ))}
-                                    </div>
+                                        </div>
+                                    ))}
                                 </div>
-                                <div class="flex flex-col justify-center items-center mt-10">
-                                    <div class="ml-4 text-sm text-gray-600">
-                                        Showing {startIndex} - {endIndex} of{" "}
-                                        {totalProducts} total
-                                    </div>
-                                    <button
-                                        class="text-black font-bold text-sm py-3 px-4 mt-5 w-72 uppercase bg-white hover:bg-black hover:text-white border border-black"
-                                        onclick="showMoreItems()"
-                                    >
-                                        Show More
-                                    </button>
+                            </div>
+                            <div class="flex flex-col justify-center items-center mt-10">
+                                <div class="ml-4 text-sm text-gray-600">
+                                    Showing {startIndex} - {endIndex} of{" "}
+                                    {totalProducts} total
                                 </div>
-                            </section>
-                        )}
-                    </div>
+                                <button
+                                    class="text-black font-bold text-sm py-3 px-4 mt-5 w-72 uppercase bg-white hover:bg-black hover:text-white border border-black"
+                                    onclick="showMoreItems()"
+                                >
+                                    Show More
+                                </button>
+                            </div>
+                        </section>
+                    )}
                 </div>
             </section>
         );

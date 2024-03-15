@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Viewdproducts = () => {
     const products = [
@@ -64,16 +65,18 @@ const Viewdproducts = () => {
                             className="relative w-64 h-96 mb-48"
                         >
                             <div className="relative w-68 h-96 overflow-hidden transition-opacity duration-300 group">
-                                <img
-                                    src={product.defaultImage}
-                                    alt="default"
-                                    className="absolute h-full w-full object-cover transition-opacity duration-700 opacity-100 group-hover:opacity-0"
-                                />
-                                <img
-                                    src={product.hoverImage}
-                                    alt="hover"
-                                    className="absolute h-full w-full object-cover transition-opacity opacity-0 group-hover:opacity-100 hover:transition-transform duration-1000 transform hover:scale-105"
-                                />
+                                <Link to="/product-details">
+                                    <img
+                                        src={product.defaultImage}
+                                        alt="default"
+                                        className="absolute h-full w-full object-cover transition-opacity duration-700 opacity-100 group-hover:opacity-0"
+                                    />
+                                    <img
+                                        src={product.hoverImage}
+                                        alt="hover"
+                                        className="absolute h-full w-full object-cover transition-opacity opacity-0 group-hover:opacity-100 hover:transition-transform duration-1000 transform hover:scale-105"
+                                    />
+                                </Link>
                                 <div className="h-32 w-full absolute bottom-0 left-0 bg-white transition duration-700 opacity-0 group-hover:opacity-100">
                                     <button className="text-black font-bold py-2 px-4 w-full absolute bottom-16 left-0 bg-white hover:bg-black hover:text-white border-2 border-black transition duration-700 opacity-0 group-hover:opacity-100">
                                         {product.imagehoverbtnText}
@@ -100,11 +103,14 @@ const Viewdproducts = () => {
                                     {product.title}
                                 </h2>
                                 <div className="text-sm hover:underline underline-offset-4">
-                                    <span className="block text-center">
-                                        {" "}
-                                        (Product {product.availProducts}){" "}
-                                        {product.description}
-                                    </span>
+                                    <Link to="/product-details">
+                                        <span className="block text-center">
+                                            {" "}
+                                            (Product {
+                                                product.availProducts
+                                            }) {product.description}
+                                        </span>
+                                    </Link>
                                 </div>
                                 <div className="flex gap-5 justify-center text-center mt-2">
                                     <div className="relative inline-block">
