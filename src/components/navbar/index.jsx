@@ -566,7 +566,6 @@ const Navbar = (props) => {
                                 </div>
                             </li>
                             {/* SHOP */}
-
                             <li className="group px-3 py-2">
                                 <Link to="/collections">
                                     <button
@@ -584,77 +583,80 @@ const Navbar = (props) => {
                                                     <h2 className="uppercase tracking-wider text-black font-bold text-sm">
                                                         COLLECTION LIST PAGES
                                                     </h2>
-                                                    <ul className="mt-3 text-xs">
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Collection List
-                                                                01
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Collection List
-                                                                02
-                                                            </a>
-                                                        </li>
+                                                    <Link to="/collections">
+                                                        <ul className="mt-3 text-xs">
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Collection
+                                                                    List 01
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Collection
+                                                                    List 02
+                                                                </a>
+                                                            </li>
 
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Collection List
-                                                                03
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Collection List
-                                                                04
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Collection List
-                                                                05
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Collection
-                                                                Detail 01
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Collection
-                                                                Detail 02
-                                                            </a>
-                                                        </li>
-                                                    </ul>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Collection
+                                                                    List 03
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Collection
+                                                                    List 04
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Collection
+                                                                    List 05
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Collection
+                                                                    Detail 01
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Collection
+                                                                    Detail 02
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </Link>
                                                 </div>
                                                 <div>
                                                     <h2 className="uppercase tracking-wider text-black font-bold text-sm">
                                                         COLLECTION PAGES
                                                     </h2>
+                                                    <Link to="/new-in">
                                                     <ul className="mt-3 text-xs">
                                                         <li>
                                                             <a
@@ -712,11 +714,14 @@ const Navbar = (props) => {
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    </Link>
                                                 </div>
                                                 <div>
                                                     <h2 className="uppercase tracking-wider text-black font-bold text-sm">
                                                         HIGHLIGHTED FEATURES
                                                     </h2>
+                                                    <Link to="/new-in">
+
                                                     <ul className="mt-3 text-xs">
                                                         <li>
                                                             <a
@@ -796,11 +801,14 @@ const Navbar = (props) => {
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    </Link>
                                                 </div>
                                                 <div>
                                                     <h2 className="uppercase tracking-wider text-black font-bold text-sm">
                                                         HIGHLIGHTED FEATURES
                                                     </h2>
+                                                    <Link to="/new-in">
+
                                                     <ul className="mt-3 text-xs">
                                                         <li>
                                                             <a
@@ -876,6 +884,7 @@ const Navbar = (props) => {
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -898,6 +907,8 @@ const Navbar = (props) => {
                                                     <h2 className="uppercase tracking-wider text-black font-bold text-xs">
                                                         PRODUCT PAGES
                                                     </h2>
+                                                    <Link to="/product-details">
+
                                                     <ul className="mt-3 text-xs">
                                                         <li>
                                                             <a
@@ -982,11 +993,14 @@ const Navbar = (props) => {
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    </Link>
                                                 </div>
                                                 <div>
                                                     <h2 className="uppercase tracking-wider text-black font-bold text-xs">
                                                         PRODUCT FEATURES
                                                     </h2>
+                                                    <Link to="/product-details">
+     
                                                     <ul className="mt-3 text-xs">
                                                         <li>
                                                             <a
@@ -1068,11 +1082,14 @@ const Navbar = (props) => {
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    </Link>
                                                 </div>
                                                 <div>
                                                     <h2 className="uppercase tracking-wider text-black font-bold text-xs">
                                                         PRODUCT FEATURES
                                                     </h2>
+                                                    <Link to="/product-details">
+
                                                     <ul className="mt-3 text-xs ">
                                                         <li>
                                                             <a
@@ -1158,11 +1175,14 @@ const Navbar = (props) => {
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    </Link>
                                                 </div>
                                                 <div>
                                                     <h2 className="uppercase tracking-wider text-black font-bold text-xs">
                                                         PRODUCT FEATURES
                                                     </h2>
+                                                    <Link to="/product-details">
+
                                                     <ul className="mt-3 text-xs text-gray-500">
                                                         <li>
                                                             <a
@@ -1241,11 +1261,15 @@ const Navbar = (props) => {
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                         </Link>                                     
+
                                                 </div>
                                                 <div>
                                                     <h2 className="uppercase tracking-wider text-black font-bold text-xs">
                                                         PRODUCT FEATURES
                                                     </h2>
+                                                    <Link to="/product-details">
+
                                                     <ul className="mt-3 text-xs text-gray-500">
                                                         <li>
                                                             <a
@@ -1327,6 +1351,7 @@ const Navbar = (props) => {
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -1344,6 +1369,8 @@ const Navbar = (props) => {
                                 <div className="absolute lg:-left-2 top-7 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[260px] transform">
                                     <div className="relative px-6 py-1 bg-white shadow-xl w-60">
                                         <div className="relative z-10">
+                                        <Link to="/blog">
+
                                             <ul className="text-xs">
                                                 <li>
                                                     <a
@@ -1409,6 +1436,7 @@ const Navbar = (props) => {
                                                     </a>
                                                 </li>
                                             </ul>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -1435,12 +1463,14 @@ const Navbar = (props) => {
                                                 </li>
                                                 <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
                                                 <li>
-                                                    <a
-                                                        href="#"
-                                                        className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
-                                                    >
-                                                        About Us
-                                                    </a>
+                                                    <Link to="/about">
+                                                        <a
+                                                            href="/about"
+                                                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
+                                                        >
+                                                            About Us
+                                                        </a>
+                                                    </Link>
                                                 </li>
                                                 <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
                                                 <li>
@@ -1453,12 +1483,14 @@ const Navbar = (props) => {
                                                 </li>
                                                 <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
                                                 <li>
-                                                    <a
-                                                        href="#"
-                                                        className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-2"
-                                                    >
-                                                        Contact Us
-                                                    </a>
+                                                    <Link to="/contact">
+                                                        <a
+                                                            href="/contact"
+                                                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-2"
+                                                        >
+                                                            Contact Us
+                                                        </a>
+                                                    </Link>
                                                 </li>
                                                 <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
                                                 <li>
@@ -1527,6 +1559,8 @@ const Navbar = (props) => {
                                                         <p className="uppercase tracking-wider text-black font-bold text-xs">
                                                             LOREM DORUS
                                                         </p>
+                                                        <Link to="/">
+
                                                         <ul className="mt-3 text-xs text-gray-500">
                                                             <li className="mb-3">
                                                                 <a
@@ -1569,11 +1603,14 @@ const Navbar = (props) => {
                                                                 </a>
                                                             </li>
                                                         </ul>
+                                                        </Link>
                                                     </div>
                                                     <div>
                                                         <p className="uppercase tracking-wider text-black font-bold text-xs">
                                                             MILANCELOS LANOS
                                                         </p>
+                                                        <Link to="/">
+
                                                         <ul className="mt-3 text-xs text-gray-500">
                                                             <li className="mb-3">
                                                                 <a
@@ -1618,11 +1655,14 @@ const Navbar = (props) => {
                                                                 </a>
                                                             </li>
                                                         </ul>
+                                                        </Link>
                                                     </div>
                                                     <div>
                                                         <p className="uppercase tracking-wider text-black font-bold text-xs">
                                                             LYNN COSMOPOLIS
                                                         </p>
+                                                        <Link to="/">
+
                                                         <ul className="mt-3 text-xs text-gray-500">
                                                             <li className="mb-3">
                                                                 <a
@@ -1667,11 +1707,14 @@ const Navbar = (props) => {
                                                                 </a>
                                                             </li>
                                                         </ul>
+                                                        </Link>
                                                     </div>
                                                     <div>
                                                         <p className="uppercase tracking-wider text-black font-bold text-xs">
                                                             LYNN COSMOPOLIS
                                                         </p>
+                                                        <Link to="/">
+
                                                         <ul className="mt-3 text-xs text-gray-500">
                                                             <li className="mb-3">
                                                                 <a
@@ -1716,11 +1759,14 @@ const Navbar = (props) => {
                                                                 </a>
                                                             </li>
                                                         </ul>
+                                                        </Link>
                                                     </div>
                                                     <div>
                                                         <p className="uppercase tracking-wider text-black font-bold text-xs">
                                                             LOREM DORUS
                                                         </p>
+                                                        <Link to="/">
+
                                                         <ul className="mt-3 text-xs text-gray-500">
                                                             <li className="mb-3">
                                                                 <a
@@ -1763,11 +1809,14 @@ const Navbar = (props) => {
                                                                 </a>
                                                             </li>
                                                         </ul>
+                                                        </Link>
                                                     </div>
                                                     <div>
                                                         <p className="uppercase tracking-wider text-black font-bold text-xs">
                                                             LOREM DORUS
                                                         </p>
+                                                        <Link to="/">
+
                                                         <ul className="mt-3 text-xs text-gray-500">
                                                             <li className="mb-3">
                                                                 <a
@@ -1810,21 +1859,26 @@ const Navbar = (props) => {
                                                                 </a>
                                                             </li>
                                                         </ul>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                                 <div className="flex justify-between w-1/2">
-                                                    <div className="">
+                                                <Link to="/new-in">
+
                                                         <img
                                                             src="/assets/local-images/blog-sidebar-2.avif"
                                                             alt=""
                                                             srcset=""
                                                         />
-                                                    </div>
+                                                        </Link>
+                                                                                                                <Link to="/new-in">
+
                                                     <img
                                                         src="/assets/local-images/blog-sidebar-2.avif"
                                                         alt=""
                                                         srcset=""
                                                     />
+                                                    </Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -1848,6 +1902,8 @@ const Navbar = (props) => {
                                                         <p className="uppercase tracking-wider text-black font-bold text-xs">
                                                             LOREM DORUS
                                                         </p>
+                                                        <Link to="/">
+
                                                         <ul className="mt-3 text-xs text-gray-500">
                                                             <li className="mb-3">
                                                                 <a
@@ -1890,11 +1946,14 @@ const Navbar = (props) => {
                                                                 </a>
                                                             </li>
                                                         </ul>
+                                                        </Link>
                                                     </div>
                                                     <div>
                                                         <p className="uppercase tracking-wider text-black font-bold text-xs">
                                                             MILANCELOS LANOS
                                                         </p>
+                                                        <Link to="/">
+
                                                         <ul className="mt-3 text-xs text-gray-500">
                                                             <li className="mb-3">
                                                                 <a
@@ -1939,11 +1998,14 @@ const Navbar = (props) => {
                                                                 </a>
                                                             </li>
                                                         </ul>
+                                                        </Link>
                                                     </div>
                                                     <div>
                                                         <p className="uppercase tracking-wider text-black font-bold text-xs">
                                                             LYNN COSMOPOLIS
                                                         </p>
+                                                        <Link to="/">
+
                                                         <ul className="mt-3 text-xs text-gray-500">
                                                             <li className="mb-3">
                                                                 <a
@@ -1988,11 +2050,14 @@ const Navbar = (props) => {
                                                                 </a>
                                                             </li>
                                                         </ul>
+                                                        </Link>
                                                     </div>
                                                     <div>
                                                         <p className="uppercase tracking-wider text-black font-bold text-xs">
                                                             LYNN COSMOPOLIS
                                                         </p>
+                                                        <Link to="/">
+
                                                         <ul className="mt-3 text-xs text-gray-500">
                                                             <li className="mb-3">
                                                                 <a
@@ -2037,11 +2102,14 @@ const Navbar = (props) => {
                                                                 </a>
                                                             </li>
                                                         </ul>
+                                                        </Link>
                                                     </div>
                                                     <div>
                                                         <p className="uppercase tracking-wider text-black font-bold text-xs">
                                                             LOREM DORUS
                                                         </p>
+                                                        <Link to="/">
+
                                                         <ul className="mt-3 text-xs text-gray-500">
                                                             <li className="mb-3">
                                                                 <a
@@ -2084,11 +2152,14 @@ const Navbar = (props) => {
                                                                 </a>
                                                             </li>
                                                         </ul>
+                                                        </Link>
                                                     </div>
                                                     <div>
                                                         <p className="uppercase tracking-wider text-black font-bold text-xs">
                                                             LOREM DORUS
                                                         </p>
+                                                        <Link to="/">
+
                                                         <ul className="mt-3 text-xs text-gray-500">
                                                             <li className="mb-3">
                                                                 <a
@@ -2131,9 +2202,13 @@ const Navbar = (props) => {
                                                                 </a>
                                                             </li>
                                                         </ul>
+                                                        </Link>
                                                     </div>
                                                 </div>
+                                               
+
                                                 <div className="flex justify-end w-1/2 h-96">
+                                                <Link to="/new-in">
                                                     <div className="flex flex-col justify-center items-center text-center gap-4">
                                                         <div className="relative w-48 h-48 overflow-hidden bg-black">
                                                             <img
@@ -2150,12 +2225,17 @@ const Navbar = (props) => {
                                                             />
                                                         </div>
                                                     </div>
+                                                    </Link>
+
                                                     <div className="relative w-60 h-full overflow-hidden bg-black">
+                                                    <Link to="/new-in">
+
                                                         <img
                                                             src="/assets/local-images/mega-menu-1.avif"
                                                             alt=""
                                                             className="w-full h-96 object-cover transition-transform duration-700 transform hover:scale-110"
                                                         />
+                                                        </Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2164,7 +2244,7 @@ const Navbar = (props) => {
                                 </div>
                             </li>
                             {/* COLLECTIONS */}
-                            <li className="px-3 py-2 group">
+                            <li className=" group px-3 py-2">
                                 <Link to="/collections">
                                     <button
                                         className="hover:opacity-50 cursor-default"
@@ -2186,6 +2266,8 @@ const Navbar = (props) => {
                                                         LOREM DE DORUS
                                                     </a>
                                                     <div className="relative w-48 h-28 overflow-hidden bg-black">
+                                                    <Link to="/product-details">
+
                                                         <img
                                                             src="/assets/local-images/blog1.jpg"
                                                             alt=""
@@ -2194,7 +2276,9 @@ const Navbar = (props) => {
                                                         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
                                                             Dorus
                                                         </div>
+                                                        </Link>
                                                     </div>
+                                                    <Link to="/">
 
                                                     <ul className="flex flex-col justify-center items-start mt-3 text-sm">
                                                         <li>
@@ -2240,6 +2324,8 @@ const Navbar = (props) => {
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    </Link>
+
                                                 </div>
                                                 {/* Card-2 */}
                                                 <div>
@@ -2250,6 +2336,8 @@ const Navbar = (props) => {
                                                         LOREM DE DORUS
                                                     </a>
                                                     <div className="relative w-48 h-28 overflow-hidden bg-black">
+                                                    <Link to="/product-details">
+
                                                         <img
                                                             src="/assets/local-images/blog2.jpg"
                                                             alt=""
@@ -2258,7 +2346,9 @@ const Navbar = (props) => {
                                                         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
                                                             Dorus
                                                         </div>
+                                                        </Link>
                                                     </div>
+                                                    <Link to="/">
 
                                                     <ul className="flex flex-col justify-center items-start mt-3 text-sm">
                                                         <li>
@@ -2304,6 +2394,8 @@ const Navbar = (props) => {
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    </Link>
+
                                                 </div>
                                                 {/* Card-3 */}
                                                 <div>
@@ -2314,6 +2406,8 @@ const Navbar = (props) => {
                                                         LOREM DE DORUS
                                                     </a>
                                                     <div className="relative w-48 h-28 overflow-hidden bg-black">
+                                                    <Link to="/product-details">
+
                                                         <img
                                                             src="/assets/local-images/blog3.jpg"
                                                             alt=""
@@ -2322,7 +2416,9 @@ const Navbar = (props) => {
                                                         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
                                                             Dorus
                                                         </div>
+                                                        </Link>
                                                     </div>
+                                                    <Link to="/">
 
                                                     <ul className="flex flex-col justify-center items-start mt-3 text-sm">
                                                         <li>
@@ -2368,6 +2464,8 @@ const Navbar = (props) => {
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    </Link>
+
                                                 </div>
                                                 {/* Card-4 */}
                                                 <div>
@@ -2378,6 +2476,8 @@ const Navbar = (props) => {
                                                         LOREM DE DORUS
                                                     </a>
                                                     <div className="relative w-48 h-28 overflow-hidden bg-black">
+                                                    <Link to="/product-details">
+
                                                         <img
                                                             src="/assets/local-images/blog4.webp"
                                                             alt=""
@@ -2386,7 +2486,9 @@ const Navbar = (props) => {
                                                         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
                                                             Dorus
                                                         </div>
+                                                        </Link>
                                                     </div>
+                                                    <Link to="/">
 
                                                     <ul className="flex flex-col justify-center items-start mt-3 text-sm">
                                                         <li>
@@ -2430,6 +2532,8 @@ const Navbar = (props) => {
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    </Link>
+
                                                 </div>
                                                 {/* Card-5 */}
                                                 <div>
@@ -2440,6 +2544,8 @@ const Navbar = (props) => {
                                                         LOREM DE DORUS
                                                     </a>
                                                     <div className="relative w-48 h-28 overflow-hidden bg-black">
+                                                    <Link to="/product-details">
+
                                                         <img
                                                             src="/assets/local-images/banner-1.jpg"
                                                             alt=""
@@ -2448,7 +2554,9 @@ const Navbar = (props) => {
                                                         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
                                                             Dorus
                                                         </div>
+                                                        </Link>
                                                     </div>
+                                                    <Link to="/">
 
                                                     <ul className="flex flex-col justify-center items-start mt-3 text-sm">
                                                         <li>
@@ -2492,6 +2600,7 @@ const Navbar = (props) => {
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         </div>
