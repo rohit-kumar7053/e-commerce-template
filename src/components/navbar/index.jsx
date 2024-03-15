@@ -657,63 +657,65 @@ const Navbar = (props) => {
                                                         COLLECTION PAGES
                                                     </h2>
                                                     <Link to="/new-in">
-                                                    <ul className="mt-3 text-xs">
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Layout 01 - Left
-                                                                Sidebar
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Layout 02 - No
-                                                                Sidebar
-                                                            </a>
-                                                        </li>
+                                                        <ul className="mt-3 text-xs">
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Layout 01 -
+                                                                    Left Sidebar
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Layout 02 -
+                                                                    No Sidebar
+                                                                </a>
+                                                            </li>
 
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Layout 03 -
-                                                                Right Sidebar
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Layout 04 -
-                                                                Masonry
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Layout 05 - With
-                                                                Banners
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Layout 06 -
-                                                                Express Order
-                                                            </a>
-                                                        </li>
-                                                    </ul>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Layout 03 -
+                                                                    Right
+                                                                    Sidebar
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Layout 04 -
+                                                                    Masonry
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Layout 05 -
+                                                                    With Banners
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Layout 06 -
+                                                                    Express
+                                                                    Order
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </Link>
                                                 </div>
                                                 <div>
@@ -721,86 +723,89 @@ const Navbar = (props) => {
                                                         HIGHLIGHTED FEATURES
                                                     </h2>
                                                     <Link to="/new-in">
+                                                        <ul className="mt-3 text-xs">
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Dynamic
+                                                                    Filtering
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Tags
+                                                                    Filtering
+                                                                </a>
+                                                            </li>
 
-                                                    <ul className="mt-3 text-xs">
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Dynamic
-                                                                Filtering
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Tags Filtering
-                                                            </a>
-                                                        </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Horizontal
+                                                                    Filter
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Vertical
+                                                                    Filter
+                                                                </a>
+                                                            </li>
 
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Horizontal
-                                                                Filter
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Vertical Filter
-                                                            </a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Product Compare
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Ajax Infinite
-                                                                Scroll
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Pagination
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                No Sidebar
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Breadcrumb
-                                                            </a>
-                                                        </li>
-                                                    </ul>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Product
+                                                                    Compare
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Ajax
+                                                                    Infinite
+                                                                    Scroll
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Pagination
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    No Sidebar
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Breadcrumb
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </Link>
                                                 </div>
                                                 <div>
@@ -808,82 +813,87 @@ const Navbar = (props) => {
                                                         HIGHLIGHTED FEATURES
                                                     </h2>
                                                     <Link to="/new-in">
+                                                        <ul className="mt-3 text-xs">
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Left Sidebar
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Right
+                                                                    Sidebar
+                                                                </a>
+                                                            </li>
 
-                                                    <ul className="mt-3 text-xs">
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Left Sidebar
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Right Sidebar
-                                                            </a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Sub Collections
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                List View
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Grid View
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Grid 2 Columns
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Grid 3 Columns
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Grid 4 Columns
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Grid 5 Columns
-                                                            </a>
-                                                        </li>
-                                                    </ul>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Sub
+                                                                    Collections
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    List View
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Grid View
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Grid 2
+                                                                    Columns
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Grid 3
+                                                                    Columns
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Grid 4
+                                                                    Columns
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Grid 5
+                                                                    Columns
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </Link>
                                                 </div>
                                             </div>
@@ -908,91 +918,91 @@ const Navbar = (props) => {
                                                         PRODUCT PAGES
                                                     </h2>
                                                     <Link to="/product-details">
+                                                        <ul className="mt-3 text-xs">
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Layout 01 -
+                                                                    Default
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Layout 02 -
+                                                                    Full Width
+                                                                </a>
+                                                            </li>
 
-                                                    <ul className="mt-3 text-xs">
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Layout 01 -
-                                                                Default
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Layout 02 - Full
-                                                                Width
-                                                            </a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Layout 03 - Grid
-                                                                View
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Layout 04 -
-                                                                Slider
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Layout 05 -
-                                                                Gallery
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Layout 06 - Left
-                                                                Thumb
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Layout 07 -
-                                                                Right Thumb
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Layout 08 - Left
-                                                                Sidebar
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Layout 09 -
-                                                                Right Sidebar
-                                                            </a>
-                                                        </li>
-                                                    </ul>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Layout 03 -
+                                                                    Grid View
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Layout 04 -
+                                                                    Slider
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Layout 05 -
+                                                                    Gallery
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Layout 06 -
+                                                                    Left Thumb
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Layout 07 -
+                                                                    Right Thumb
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Layout 08 -
+                                                                    Left Sidebar
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Layout 09 -
+                                                                    Right
+                                                                    Sidebar
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </Link>
                                                 </div>
                                                 <div>
@@ -1000,88 +1010,90 @@ const Navbar = (props) => {
                                                         PRODUCT FEATURES
                                                     </h2>
                                                     <Link to="/product-details">
-     
-                                                    <ul className="mt-3 text-xs">
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Bundle -
-                                                                UpsellHot
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Hot Stock
-                                                            </a>
-                                                        </li>
+                                                        <ul className="mt-3 text-xs">
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Bundle -
+                                                                    UpsellHot
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Hot Stock
+                                                                </a>
+                                                            </li>
 
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Sticky Add To
-                                                                Cart
-                                                            </a>
-                                                        </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Sticky Add
+                                                                    To Cart
+                                                                </a>
+                                                            </li>
 
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Notify Me (Out
-                                                                Of Stock)Hot
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Ask An Expert
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Variant Image
-                                                                GroupedHot
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Wishlist
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Trust Badge
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Delivery
-                                                                Information
-                                                            </a>
-                                                        </li>
-                                                    </ul>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Notify Me
+                                                                    (Out Of
+                                                                    Stock)Hot
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Ask An
+                                                                    Expert
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Variant
+                                                                    Image
+                                                                    GroupedHot
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Wishlist
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Trust Badge
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Delivery
+                                                                    Information
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </Link>
                                                 </div>
                                                 <div>
@@ -1089,92 +1101,93 @@ const Navbar = (props) => {
                                                         PRODUCT FEATURES
                                                     </h2>
                                                     <Link to="/product-details">
+                                                        <ul className="mt-3 text-xs ">
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Sold In Last
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Color
+                                                                    ComparisonHot
+                                                                </a>
+                                                            </li>
 
-                                                    <ul className="mt-3 text-xs ">
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Sold In Last
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Color
-                                                                ComparisonHot
-                                                            </a>
-                                                        </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Product
+                                                                    Swatches
+                                                                </a>
+                                                            </li>
 
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Product Swatches
-                                                            </a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Product Select
-                                                                Options
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Pre-Order
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Product 3D, AR
-                                                                Models
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Terms And
-                                                                Conditions
-                                                                Checkbox
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Variant
-                                                                Metafield
-                                                                Description
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Variant
-                                                                Metafield
-                                                                Property
-                                                            </a>
-                                                        </li>
-                                                    </ul>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Product
+                                                                    Select
+                                                                    Options
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Pre-Order
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Product 3D,
+                                                                    AR Models
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Terms And
+                                                                    Conditions
+                                                                    Checkbox
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Variant
+                                                                    Metafield
+                                                                    Description
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Variant
+                                                                    Metafield
+                                                                    Property
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </Link>
                                                 </div>
                                                 <div>
@@ -1182,175 +1195,181 @@ const Navbar = (props) => {
                                                         PRODUCT FEATURES
                                                     </h2>
                                                     <Link to="/product-details">
+                                                        <ul className="mt-3 text-xs text-gray-500">
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Product
+                                                                    VideoHot
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Size Chart
+                                                                </a>
+                                                            </li>
 
-                                                    <ul className="mt-3 text-xs text-gray-500">
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Product VideoHot
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Size Chart
-                                                            </a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Dynamic Checkout
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Product
-                                                                Countdown
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Custom Content
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Custom
-                                                                OptionsHot
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Product ComboHot
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Product
-                                                                Complementary
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Auto Discount
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                         </Link>                                     
-
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Dynamic
+                                                                    Checkout
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Product
+                                                                    Countdown
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Custom
+                                                                    Content
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Custom
+                                                                    OptionsHot
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Product
+                                                                    ComboHot
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Product
+                                                                    Complementary
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Auto
+                                                                    Discount
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </Link>
                                                 </div>
                                                 <div>
                                                     <h2 className="uppercase tracking-wider text-black font-bold text-xs">
                                                         PRODUCT FEATURES
                                                     </h2>
                                                     <Link to="/product-details">
+                                                        <ul className="mt-3 text-xs text-gray-500">
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Custom
+                                                                    Product Tabs
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Vertical
+                                                                    Product Tab
+                                                                </a>
+                                                            </li>
 
-                                                    <ul className="mt-3 text-xs text-gray-500">
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Custom Product
-                                                                Tabs
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Vertical Product
-                                                                Tab
-                                                            </a>
-                                                        </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Horizontal
+                                                                    Product Tab
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Social Share
+                                                                </a>
+                                                            </li>
 
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Horizontal
-                                                                Product Tab
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Social Share
-                                                            </a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Related Products
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Recently Viewed
-                                                                Products
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Recently Viewed
-                                                                Products
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Local Pick Up
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
-                                                            >
-                                                                Custom Label
-                                                            </a>
-                                                        </li>
-                                                    </ul>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Related
+                                                                    Products
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Recently
+                                                                    Viewed
+                                                                    Products
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Recently
+                                                                    Viewed
+                                                                    Products
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Local Pick
+                                                                    Up
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                >
+                                                                    Custom Label
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </Link>
                                                 </div>
                                             </div>
@@ -1369,73 +1388,73 @@ const Navbar = (props) => {
                                 <div className="absolute lg:-left-2 top-7 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[260px] transform">
                                     <div className="relative px-6 py-1 bg-white shadow-xl w-60">
                                         <div className="relative z-10">
-                                        <Link to="/blog">
+                                            <Link to="/blog">
+                                                <ul className="text-xs">
+                                                    <li>
+                                                        <a
+                                                            href="#"
+                                                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
+                                                        >
+                                                            Blog Default
+                                                        </a>
+                                                    </li>
+                                                    <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+                                                    <li>
+                                                        <a
+                                                            href="#"
+                                                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
+                                                        >
+                                                            Blog Simple
+                                                        </a>
+                                                    </li>
+                                                    <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
 
-                                            <ul className="text-xs">
-                                                <li>
-                                                    <a
-                                                        href="#"
-                                                        className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
-                                                    >
-                                                        Blog Default
-                                                    </a>
-                                                </li>
-                                                <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-                                                <li>
-                                                    <a
-                                                        href="#"
-                                                        className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
-                                                    >
-                                                        Blog Simple
-                                                    </a>
-                                                </li>
-                                                <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-
-                                                <li>
-                                                    <a
-                                                        href="#"
-                                                        className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
-                                                    >
-                                                        Blog Full Width
-                                                    </a>
-                                                </li>
-                                                <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-                                                <li>
-                                                    <a
-                                                        href="#"
-                                                        className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-2"
-                                                    >
-                                                        Blog Masonry
-                                                    </a>
-                                                </li>
-                                                <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-                                                <li>
-                                                    <a
-                                                        href="#"
-                                                        className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
-                                                    >
-                                                        Blog List
-                                                    </a>
-                                                </li>
-                                                <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-                                                <li>
-                                                    <a
-                                                        href="#"
-                                                        className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
-                                                    >
-                                                        Blog Post Default
-                                                    </a>
-                                                </li>
-                                                <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-                                                <li>
-                                                    <a
-                                                        href="#"
-                                                        className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
-                                                    >
-                                                        Blog Post With Products
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                                    <li>
+                                                        <a
+                                                            href="#"
+                                                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
+                                                        >
+                                                            Blog Full Width
+                                                        </a>
+                                                    </li>
+                                                    <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+                                                    <li>
+                                                        <a
+                                                            href="#"
+                                                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-2"
+                                                        >
+                                                            Blog Masonry
+                                                        </a>
+                                                    </li>
+                                                    <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+                                                    <li>
+                                                        <a
+                                                            href="#"
+                                                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
+                                                        >
+                                                            Blog List
+                                                        </a>
+                                                    </li>
+                                                    <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+                                                    <li>
+                                                        <a
+                                                            href="#"
+                                                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
+                                                        >
+                                                            Blog Post Default
+                                                        </a>
+                                                    </li>
+                                                    <hr class="w-52 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+                                                    <li>
+                                                        <a
+                                                            href="#"
+                                                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
+                                                        >
+                                                            Blog Post With
+                                                            Products
+                                                        </a>
+                                                    </li>
+                                                </ul>
                                             </Link>
                                         </div>
                                     </div>
@@ -1560,49 +1579,48 @@ const Navbar = (props) => {
                                                             LOREM DORUS
                                                         </p>
                                                         <Link to="/">
-
-                                                        <ul className="mt-3 text-xs text-gray-500">
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Dincidunteros
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Loremous
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Comodianos
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Gravidas
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Montemous
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                                            <ul className="mt-3 text-xs text-gray-500">
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Dincidunteros
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Loremous
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Comodianos
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Gravidas
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Montemous
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
                                                         </Link>
                                                     </div>
                                                     <div>
@@ -1610,51 +1628,50 @@ const Navbar = (props) => {
                                                             MILANCELOS LANOS
                                                         </p>
                                                         <Link to="/">
-
-                                                        <ul className="mt-3 text-xs text-gray-500">
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Dincidunteros
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Nectellus
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Solutmades
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Loremous
-                                                                    Comodous
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Namdos
-                                                                    Hempus
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                                            <ul className="mt-3 text-xs text-gray-500">
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Dincidunteros
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Nectellus
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Solutmades
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Loremous
+                                                                        Comodous
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Namdos
+                                                                        Hempus
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
                                                         </Link>
                                                     </div>
                                                     <div>
@@ -1662,51 +1679,50 @@ const Navbar = (props) => {
                                                             LYNN COSMOPOLIS
                                                         </p>
                                                         <Link to="/">
-
-                                                        <ul className="mt-3 text-xs text-gray-500">
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Bibendumetos
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Pellentes
-                                                                    Habitanto
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Senectus
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Consequatod
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Scelerisque
-                                                                    Yurnas
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                                            <ul className="mt-3 text-xs text-gray-500">
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Bibendumetos
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Pellentes
+                                                                        Habitanto
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Senectus
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Consequatod
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Scelerisque
+                                                                        Yurnas
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
                                                         </Link>
                                                     </div>
                                                     <div>
@@ -1714,51 +1730,50 @@ const Navbar = (props) => {
                                                             LYNN COSMOPOLIS
                                                         </p>
                                                         <Link to="/">
-
-                                                        <ul className="mt-3 text-xs text-gray-500">
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Pellentes
-                                                                    Habitanto
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Senectus
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Consequatod
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Gravidas
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Scelerisque
-                                                                    Yurnas
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                                            <ul className="mt-3 text-xs text-gray-500">
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Pellentes
+                                                                        Habitanto
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Senectus
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Consequatod
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Gravidas
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Scelerisque
+                                                                        Yurnas
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
                                                         </Link>
                                                     </div>
                                                     <div>
@@ -1766,49 +1781,48 @@ const Navbar = (props) => {
                                                             LOREM DORUS
                                                         </p>
                                                         <Link to="/">
-
-                                                        <ul className="mt-3 text-xs text-gray-500">
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Dincidunteros
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Loremous
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Comodianos
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Gravidas
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Montemous
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                                            <ul className="mt-3 text-xs text-gray-500">
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Dincidunteros
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Loremous
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Comodianos
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Gravidas
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Montemous
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
                                                         </Link>
                                                     </div>
                                                     <div>
@@ -1816,68 +1830,65 @@ const Navbar = (props) => {
                                                             LOREM DORUS
                                                         </p>
                                                         <Link to="/">
-
-                                                        <ul className="mt-3 text-xs text-gray-500">
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Dincidunteros
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Loremous
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Comodianos
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Gravidas
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Montemous
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                                            <ul className="mt-3 text-xs text-gray-500">
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Dincidunteros
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Loremous
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Comodianos
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Gravidas
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Montemous
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
                                                         </Link>
                                                     </div>
                                                 </div>
                                                 <div className="flex justify-between w-1/2">
-                                                <Link to="/new-in">
-
+                                                    <Link to="/new-in">
                                                         <img
                                                             src="/assets/local-images/blog-sidebar-2.avif"
                                                             alt=""
                                                             srcset=""
                                                         />
-                                                        </Link>
-                                                                                                                <Link to="/new-in">
-
-                                                    <img
-                                                        src="/assets/local-images/blog-sidebar-2.avif"
-                                                        alt=""
-                                                        srcset=""
-                                                    />
+                                                    </Link>
+                                                    <Link to="/new-in">
+                                                        <img
+                                                            src="/assets/local-images/blog-sidebar-2.avif"
+                                                            alt=""
+                                                            srcset=""
+                                                        />
                                                     </Link>
                                                 </div>
                                             </div>
@@ -1903,49 +1914,48 @@ const Navbar = (props) => {
                                                             LOREM DORUS
                                                         </p>
                                                         <Link to="/">
-
-                                                        <ul className="mt-3 text-xs text-gray-500">
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Dincidunteros
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Loremous
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Comodianos
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Gravidas
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Montemous
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                                            <ul className="mt-3 text-xs text-gray-500">
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Dincidunteros
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Loremous
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Comodianos
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Gravidas
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Montemous
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
                                                         </Link>
                                                     </div>
                                                     <div>
@@ -1953,51 +1963,50 @@ const Navbar = (props) => {
                                                             MILANCELOS LANOS
                                                         </p>
                                                         <Link to="/">
-
-                                                        <ul className="mt-3 text-xs text-gray-500">
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Dincidunteros
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Nectellus
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Solutmades
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Loremous
-                                                                    Comodous
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Namdos
-                                                                    Hempus
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                                            <ul className="mt-3 text-xs text-gray-500">
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Dincidunteros
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Nectellus
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Solutmades
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Loremous
+                                                                        Comodous
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Namdos
+                                                                        Hempus
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
                                                         </Link>
                                                     </div>
                                                     <div>
@@ -2005,51 +2014,50 @@ const Navbar = (props) => {
                                                             LYNN COSMOPOLIS
                                                         </p>
                                                         <Link to="/">
-
-                                                        <ul className="mt-3 text-xs text-gray-500">
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Bibendumetos
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Pellentes
-                                                                    Habitanto
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Senectus
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Consequatod
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Scelerisque
-                                                                    Yurnas
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                                            <ul className="mt-3 text-xs text-gray-500">
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Bibendumetos
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Pellentes
+                                                                        Habitanto
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Senectus
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Consequatod
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Scelerisque
+                                                                        Yurnas
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
                                                         </Link>
                                                     </div>
                                                     <div>
@@ -2057,51 +2065,50 @@ const Navbar = (props) => {
                                                             LYNN COSMOPOLIS
                                                         </p>
                                                         <Link to="/">
-
-                                                        <ul className="mt-3 text-xs text-gray-500">
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Pellentes
-                                                                    Habitanto
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Senectus
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Consequatod
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Gravidas
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Scelerisque
-                                                                    Yurnas
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                                            <ul className="mt-3 text-xs text-gray-500">
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Pellentes
+                                                                        Habitanto
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Senectus
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Consequatod
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Gravidas
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Scelerisque
+                                                                        Yurnas
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
                                                         </Link>
                                                     </div>
                                                     <div>
@@ -2109,49 +2116,48 @@ const Navbar = (props) => {
                                                             LOREM DORUS
                                                         </p>
                                                         <Link to="/">
-
-                                                        <ul className="mt-3 text-xs text-gray-500">
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Dincidunteros
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Loremous
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Comodianos
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Gravidas
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Montemous
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                                            <ul className="mt-3 text-xs text-gray-500">
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Dincidunteros
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Loremous
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Comodianos
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Gravidas
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Montemous
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
                                                         </Link>
                                                     </div>
                                                     <div>
@@ -2159,82 +2165,79 @@ const Navbar = (props) => {
                                                             LOREM DORUS
                                                         </p>
                                                         <Link to="/">
-
-                                                        <ul className="mt-3 text-xs text-gray-500">
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Dincidunteros
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Loremous
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Comodianos
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Gravidas
-                                                                </a>
-                                                            </li>
-                                                            <li className="mb-3">
-                                                                <a
-                                                                    href="#"
-                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                                >
-                                                                    Montemous
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                                            <ul className="mt-3 text-xs text-gray-500">
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Dincidunteros
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Loremous
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Comodianos
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Gravidas
+                                                                    </a>
+                                                                </li>
+                                                                <li className="mb-3">
+                                                                    <a
+                                                                        href="#"
+                                                                        className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                    >
+                                                                        Montemous
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
                                                         </Link>
                                                     </div>
                                                 </div>
-                                               
 
                                                 <div className="flex justify-end w-1/2 h-96">
-                                                <Link to="/new-in">
-                                                    <div className="flex flex-col justify-center items-center text-center gap-4">
-                                                        <div className="relative w-48 h-48 overflow-hidden bg-black">
-                                                            <img
-                                                                src="/assets/local-images/blog-sidebar-1.avif"
-                                                                alt=""
-                                                                className="w-full h-48 object-cover transition-transform duration-700 transform hover:scale-110"
-                                                            />
+                                                    <Link to="/new-in">
+                                                        <div className="flex flex-col justify-center items-center text-center gap-4">
+                                                            <div className="relative w-48 h-48 overflow-hidden bg-black">
+                                                                <img
+                                                                    src="/assets/local-images/blog-sidebar-1.avif"
+                                                                    alt=""
+                                                                    className="w-full h-48 object-cover transition-transform duration-700 transform hover:scale-110"
+                                                                />
+                                                            </div>
+                                                            <div className="relative w-48 h-44 overflow-hidden bg-black">
+                                                                <img
+                                                                    src="/assets/local-images/mega-menu-2.avif"
+                                                                    alt=""
+                                                                    className="w-full h-44 object-cover transition-transform duration-700 transform hover:scale-110"
+                                                                />
+                                                            </div>
                                                         </div>
-                                                        <div className="relative w-48 h-44 overflow-hidden bg-black">
-                                                            <img
-                                                                src="/assets/local-images/mega-menu-2.avif"
-                                                                alt=""
-                                                                className="w-full h-44 object-cover transition-transform duration-700 transform hover:scale-110"
-                                                            />
-                                                        </div>
-                                                    </div>
                                                     </Link>
 
                                                     <div className="relative w-60 h-full overflow-hidden bg-black">
-                                                    <Link to="/new-in">
-
-                                                        <img
-                                                            src="/assets/local-images/mega-menu-1.avif"
-                                                            alt=""
-                                                            className="w-full h-96 object-cover transition-transform duration-700 transform hover:scale-110"
-                                                        />
+                                                        <Link to="/new-in">
+                                                            <img
+                                                                src="/assets/local-images/mega-menu-1.avif"
+                                                                alt=""
+                                                                className="w-full h-96 object-cover transition-transform duration-700 transform hover:scale-110"
+                                                            />
                                                         </Link>
                                                     </div>
                                                 </div>
@@ -2266,66 +2269,64 @@ const Navbar = (props) => {
                                                         LOREM DE DORUS
                                                     </a>
                                                     <div className="relative w-48 h-28 overflow-hidden bg-black">
-                                                    <Link to="/product-details">
-
-                                                        <img
-                                                            src="/assets/local-images/blog1.jpg"
-                                                            alt=""
-                                                            className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
-                                                        />
-                                                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
-                                                            Dorus
-                                                        </div>
+                                                        <Link to="/product-details">
+                                                            <img
+                                                                src="/assets/local-images/blog1.jpg"
+                                                                alt=""
+                                                                className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
+                                                            />
+                                                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
+                                                                Dorus
+                                                            </div>
                                                         </Link>
                                                     </div>
                                                     <Link to="/">
+                                                        <ul className="flex flex-col justify-center items-start mt-3 text-sm">
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Dincidunteros
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Nectellus
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Solutmades
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Loremous
+                                                                    Comodous
+                                                                </a>
+                                                            </li>
 
-                                                    <ul className="flex flex-col justify-center items-start mt-3 text-sm">
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Dincidunteros
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Nectellus
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Solutmades
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Loremous
-                                                                Comodous
-                                                            </a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Namdos Hempus
-                                                            </a>
-                                                        </li>
-                                                    </ul>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Namdos
+                                                                    Hempus
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </Link>
-
                                                 </div>
                                                 {/* Card-2 */}
                                                 <div>
@@ -2336,66 +2337,64 @@ const Navbar = (props) => {
                                                         LOREM DE DORUS
                                                     </a>
                                                     <div className="relative w-48 h-28 overflow-hidden bg-black">
-                                                    <Link to="/product-details">
-
-                                                        <img
-                                                            src="/assets/local-images/blog2.jpg"
-                                                            alt=""
-                                                            className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
-                                                        />
-                                                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
-                                                            Dorus
-                                                        </div>
+                                                        <Link to="/product-details">
+                                                            <img
+                                                                src="/assets/local-images/blog2.jpg"
+                                                                alt=""
+                                                                className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
+                                                            />
+                                                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
+                                                                Dorus
+                                                            </div>
                                                         </Link>
                                                     </div>
                                                     <Link to="/">
+                                                        <ul className="flex flex-col justify-center items-start mt-3 text-sm">
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Dincidunteros
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Nectellus
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Solutmades
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Loremous
+                                                                    Comodous
+                                                                </a>
+                                                            </li>
 
-                                                    <ul className="flex flex-col justify-center items-start mt-3 text-sm">
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Dincidunteros
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Nectellus
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Solutmades
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Loremous
-                                                                Comodous
-                                                            </a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Namdos Hempus
-                                                            </a>
-                                                        </li>
-                                                    </ul>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Namdos
+                                                                    Hempus
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </Link>
-
                                                 </div>
                                                 {/* Card-3 */}
                                                 <div>
@@ -2406,66 +2405,64 @@ const Navbar = (props) => {
                                                         LOREM DE DORUS
                                                     </a>
                                                     <div className="relative w-48 h-28 overflow-hidden bg-black">
-                                                    <Link to="/product-details">
-
-                                                        <img
-                                                            src="/assets/local-images/blog3.jpg"
-                                                            alt=""
-                                                            className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
-                                                        />
-                                                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
-                                                            Dorus
-                                                        </div>
+                                                        <Link to="/product-details">
+                                                            <img
+                                                                src="/assets/local-images/blog3.jpg"
+                                                                alt=""
+                                                                className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
+                                                            />
+                                                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
+                                                                Dorus
+                                                            </div>
                                                         </Link>
                                                     </div>
                                                     <Link to="/">
+                                                        <ul className="flex flex-col justify-center items-start mt-3 text-sm">
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Dincidunteros
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Nectellus
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Solutmades
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Loremous
+                                                                    Comodous
+                                                                </a>
+                                                            </li>
 
-                                                    <ul className="flex flex-col justify-center items-start mt-3 text-sm">
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Dincidunteros
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Nectellus
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Solutmades
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Loremous
-                                                                Comodous
-                                                            </a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Namdos Hempus
-                                                            </a>
-                                                        </li>
-                                                    </ul>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Namdos
+                                                                    Hempus
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </Link>
-
                                                 </div>
                                                 {/* Card-4 */}
                                                 <div>
@@ -2476,64 +2473,61 @@ const Navbar = (props) => {
                                                         LOREM DE DORUS
                                                     </a>
                                                     <div className="relative w-48 h-28 overflow-hidden bg-black">
-                                                    <Link to="/product-details">
-
-                                                        <img
-                                                            src="/assets/local-images/blog4.webp"
-                                                            alt=""
-                                                            className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
-                                                        />
-                                                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
-                                                            Dorus
-                                                        </div>
+                                                        <Link to="/product-details">
+                                                            <img
+                                                                src="/assets/local-images/blog4.webp"
+                                                                alt=""
+                                                                className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
+                                                            />
+                                                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
+                                                                Dorus
+                                                            </div>
                                                         </Link>
                                                     </div>
                                                     <Link to="/">
-
-                                                    <ul className="flex flex-col justify-center items-start mt-3 text-sm">
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Dincidunteros
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Loremous
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Comodianos
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Gravidas
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Montemous
-                                                            </a>
-                                                        </li>
-                                                    </ul>
+                                                        <ul className="flex flex-col justify-center items-start mt-3 text-sm">
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Dincidunteros
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Loremous
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Comodianos
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Gravidas
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Montemous
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </Link>
-
                                                 </div>
                                                 {/* Card-5 */}
                                                 <div>
@@ -2544,62 +2538,60 @@ const Navbar = (props) => {
                                                         LOREM DE DORUS
                                                     </a>
                                                     <div className="relative w-48 h-28 overflow-hidden bg-black">
-                                                    <Link to="/product-details">
-
-                                                        <img
-                                                            src="/assets/local-images/banner-1.jpg"
-                                                            alt=""
-                                                            className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
-                                                        />
-                                                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
-                                                            Dorus
-                                                        </div>
+                                                        <Link to="/product-details">
+                                                            <img
+                                                                src="/assets/local-images/banner-1.jpg"
+                                                                alt=""
+                                                                className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
+                                                            />
+                                                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
+                                                                Dorus
+                                                            </div>
                                                         </Link>
                                                     </div>
                                                     <Link to="/">
-
-                                                    <ul className="flex flex-col justify-center items-start mt-3 text-sm">
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Dincidunteros
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Loremous
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Comodianos
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Gravidas
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                href="#"
-                                                                className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                            >
-                                                                Montemous
-                                                            </a>
-                                                        </li>
-                                                    </ul>
+                                                        <ul className="flex flex-col justify-center items-start mt-3 text-sm">
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Dincidunteros
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Loremous
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Comodianos
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Gravidas
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a
+                                                                    href="#"
+                                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
+                                                                >
+                                                                    Montemous
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </Link>
                                                 </div>
                                             </div>
