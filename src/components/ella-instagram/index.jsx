@@ -1,11 +1,11 @@
 /** @format */
 
-import React, { useState, useEffect } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 import MultiCarousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { FaHashtag } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
-import axios from "axios";
 
 const Ellainsta = () => {
     const responsive = {
@@ -69,7 +69,7 @@ const Ellainsta = () => {
                     </p>
                 </div>
             </div>
-            <section className="m-3 px-4 h-64">
+            <section className="mx-12 h-64">
                 <MultiCarousel
                     partialVisible={true}
                     autoPlay={false}
@@ -83,48 +83,49 @@ const Ellainsta = () => {
                     nav
                     responsive={responsive}
                 >
-                    <div className="relative w-56 h-64 overflow-hidden">
+                    <div className="relative w-56 h-60 overflow-hidden">
                         <img
                             src="/assets/local-images/insta2.jpg"
                             alt=""
                             className=" w-full h-full object-cover transition-transform duration-700 transform hover:scale-105"
                         />
                     </div>
-                    <div className="relative w-56 h-64 overflow-hidden">
+                    <div className="relative w-56 h-60 overflow-hidden">
                         <img
                             src="/assets/local-images/insta1.avif"
                             alt=""
                             className=" w-full h-full object-cover transition-transform duration-700 transform hover:scale-105"
                         />
                     </div>
-                    <div className="relative w-56 h-64 overflow-hidden">
+                    <div className="relative w-56 h-60 overflow-hidden">
                         <img
                             src="/assets/local-images/insta3.avif"
                             alt=""
                             className=" w-full h-full object-cover transition-transform duration-700 transform hover:scale-105"
                         />
                     </div>
-                    <div className="relative w-56 h-64 overflow-hidden">
+                    <div className="relative w-56 h-60 overflow-hidden">
                         <img
                             src="/assets/local-images/insta4.avif"
                             alt=""
                             className=" w-full h-full object-cover transition-transform duration-700 transform hover:scale-105"
                         />
                     </div>
-                    <div className="relative w-56 h-64 overflow-hidden">
+                    <div className="relative w-56 h-60 overflow-hidden">
                         <img
                             src="/assets/local-images/insta5.avif"
                             alt=""
                             className=" w-full h-full object-cover transition-transform duration-700 transform hover:scale-105"
                         />
                     </div>
-                   
                 </MultiCarousel>
             </section>
             <div className="justify-center text-center mt-5 pb-20">
-                <button className="bg-[#232323] hover:bg-white hover:text-black text-white border border-transparent hover:border-black cursor-pointer font-bold py-2 px-4 w-56">
-                    VIEW GALLERY
-                </button>
+                <Link to="/new-in">
+                    <button className="bg-[#232323] hover:bg-white hover:text-black text-white border border-transparent hover:border-black cursor-pointer font-bold py-2 px-4 w-56">
+                        VIEW GALLERY
+                    </button>
+                </Link>
             </div>
         </section>
     );

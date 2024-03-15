@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
     return (
@@ -565,13 +566,16 @@ const Navbar = (props) => {
                                 </div>
                             </li>
                             {/* SHOP */}
+
                             <li className="group px-3 py-2">
-                                <button
-                                    className="hover:opacity-50 cursor-default "
-                                    aria-haspopup="true"
-                                >
-                                    SHOP
-                                </button>
+                                <Link to="/collections">
+                                    <button
+                                        className="hover:opacity-50 cursor-default "
+                                        aria-haspopup="true"
+                                    >
+                                        SHOP
+                                    </button>
+                                </Link>
                                 <div className="absolute top-6 left-0 right-0 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 transform">
                                     <div className="relative top-3 px-12 py-6 h-96 bg-white shadow-xl">
                                         <div className="relative z-10">
@@ -2161,12 +2165,14 @@ const Navbar = (props) => {
                             </li>
                             {/* COLLECTIONS */}
                             <li className="px-3 py-2 group">
-                                <button
-                                    className="hover:opacity-50 cursor-default"
-                                    aria-haspopup="true"
-                                >
-                                    COLLECTIONS
-                                </button>
+                                <Link to="/collections">
+                                    <button
+                                        className="hover:opacity-50 cursor-default"
+                                        aria-haspopup="true"
+                                    >
+                                        COLLECTIONS
+                                    </button>
+                                </Link>
                                 <div className="absolute top-9 left-0 right-0 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 transform">
                                     <div className="relative py-3 px-12 bg-white h-96 shadow-xl">
                                         <div className="relative z-10">

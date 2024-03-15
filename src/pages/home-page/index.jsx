@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../../components/navbar";
 import Footer from "../../components/footer";
 import Ellafeatured from "../../components/ella-featured";
@@ -36,47 +37,55 @@ const Home = () => {
                         Sed do eiusmod tempor incididunt labore et dolore magna
                         aliqua ut labore et dolore
                     </p>
-                    <button className="font-bold py-2 px-4 w-48 mt-8 bg-black hover:bg-white hover:text-black text-white border border-transparent hover:border-black">
-                        Shop Now
-                    </button>
+                    <Link to="/new-in">
+                        <button className="font-bold py-2 px-4 w-48 mt-8 bg-black hover:bg-white hover:text-black text-white border border-transparent hover:border-black">
+                            Shop Now
+                        </button>
+                    </Link>
                 </div>
             </div>
             {/* Top Categorys Start */}
             <div className="page1-container pb-5 h-full">
                 <div className="flex justify-center gap-7 mt-8 mx-12 ">
                     {/* Category 1  */}
-                    <div className="relative w-96 h-48 overflow-hidden bg-black">
-                        <img
-                            src="/assets/local-images/cat1.avif"
-                            alt=""
-                            className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
-                        />
-                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
-                            Top Category
-                        </div>
+                    <div className="relative w-96 h-52 overflow-hidden bg-black">
+                        <Link to="/new-in">
+                            <img
+                                src="/assets/local-images/cat1.avif"
+                                alt=""
+                                className="w-full h-52 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
+                            />
+                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-semibold hover:underline underline-offset-8 ">
+                                EDITOR’S PICK
+                            </div>
+                        </Link>
                     </div>
 
                     {/* Category 2  */}
-                    <div className="relative w-96 h-48 overflow-hidden bg-black">
-                        <img
-                            src="/assets/local-images/cat2.avif"
-                            alt=""
-                            className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
-                        />
-                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
-                            Top Category
-                        </div>
+                    <div className="relative w-96 h-52 overflow-hidden bg-black">
+                        <Link to="/new-in">
+                            <img
+                                src="/assets/local-images/cat2.avif"
+                                alt=""
+                                className="w-full h-52 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
+                            />
+                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-semibold hover:underline underline-offset-8 ">
+                                SHOES
+                            </div>
+                        </Link>
                     </div>
                     {/* Category 3  */}
-                    <div className="relative w-96 h-48 overflow-hidden bg-black">
-                        <img
-                            src="/assets/local-images/cat3.avif"
-                            alt=""
-                            className="w-full h-48 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
-                        />
-                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-bold hover:underline underline-offset-8 ">
-                            Top Category
-                        </div>
+                    <div className="relative w-96 h-52 overflow-hidden bg-black">
+                        <Link to="/new-in">
+                            <img
+                                src="/assets/local-images/cat3.avif"
+                                alt=""
+                                className="w-full h-52 mb-4 object-cover transition-transform duration-700 transform hover:scale-110"
+                            />
+                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-stone-50 text-lg font-semibold hover:underline underline-offset-8 ">
+                                ACCESSORIES
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -101,9 +110,11 @@ const Home = () => {
                             elit. Sed do eiusmod tempor incididunt labore et
                             dolore magna aliqua ut labore et dolore
                         </p>
-                        <button className="font-bold py-2 px-4 w-48 mt-8 bg-black hover:bg-white hover:text-black text-white border border-transparent hover:border-black">
-                            Shop Now
-                        </button>
+                        <Link to="/new-in">
+                            <button className="font-bold py-2 px-4 w-48 mt-8 bg-black hover:bg-white hover:text-black text-white border border-transparent hover:border-black">
+                                Shop Now
+                            </button>
+                        </Link>
                     </div>
                 </div>
                 {/* TRENDING NOW Section */}

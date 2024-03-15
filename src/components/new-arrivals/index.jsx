@@ -1,5 +1,6 @@
 /** @format */
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const NewArrivals = (prop) => {
     const products = [
@@ -101,12 +102,14 @@ const NewArrivals = (prop) => {
                         NEW ARRIVALS
                     </span>
                 </div>
-                <a
-                    href="/Product"
-                    className="flex justify-center mt-5 underline font-thin text-sm text-stone-400"
-                >
-                    View All
-                </a>
+                <Link to="/new-in">
+                    <a
+                        href="/new-in"
+                        className="flex justify-center mt-5 underline font-thin text-sm text-stone-400"
+                    >
+                        View All
+                    </a>
+                </Link>
             </div>
             <div className="overflow-hidden mx-12">
                 <div className="grid grid-cols-4 place-items-center">

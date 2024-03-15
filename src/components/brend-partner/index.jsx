@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+import { Link } from "react-router-dom";
 import MultiCarousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -57,54 +58,68 @@ const Brendpartner = () => {
                 responsive={responsive}
             >
                 <div className="bg-white p-4 text-center justify-center w-52 h-28">
-                    <img
-                        src="/assets/local-images/brendlogo-1.webp"
-                        alt=""
-                        className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
-                    />
+                    <Link to="/new-in">
+                        <img
+                            src="/assets/local-images/brendlogo-1.webp"
+                            alt=""
+                            className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
+                        />
+                    </Link>
                 </div>
 
                 <div className="bg-white p-4 text-center justify-center w-52 h-28">
-                    <img
-                        src="/assets/local-images/brendlogo-2.webp"
-                        alt=""
-                        className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
-                    />
+                    <Link to="/new-in">
+                        <img
+                            src="/assets/local-images/brendlogo-2.webp"
+                            alt=""
+                            className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
+                        />
+                    </Link>
                 </div>
                 <div className="bg-white p-4 text-center justify-center w-52 h-28">
-                    <img
-                        src="/assets/local-images/brendlogo-3.webp"
-                        alt=""
-                        className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
-                    />
+                    <Link to="/new-in">
+                        <img
+                            src="/assets/local-images/brendlogo-3.webp"
+                            alt=""
+                            className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
+                        />
+                    </Link>
                 </div>
                 <div className="bg-white p-4 text-center justify-center w-52 h-28">
-                    <img
-                        src="/assets/local-images/brendlogo-4.webp"
-                        alt=""
-                        className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
-                    />
+                    <Link to="/new-in">
+                        <img
+                            src="/assets/local-images/brendlogo-4.webp"
+                            alt=""
+                            className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
+                        />
+                    </Link>
                 </div>
                 <div className="bg-white p-4 text-center justify-center w-52 h-28">
-                    <img
-                        src="/assets/local-images/brendlogo-5.webp"
-                        alt=""
-                        className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
-                    />
+                    <Link to="/new-in">
+                        <img
+                            src="/assets/local-images/brendlogo-5.webp"
+                            alt=""
+                            className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
+                        />
+                    </Link>
                 </div>
                 <div className="bg-white p-4 text-center justify-center w-52 h-28">
-                    <img
-                        src="/assets/local-images/brendlogo-5.webp"
-                        alt=""
-                        className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
-                    />
+                    <Link to="/new-in">
+                        <img
+                            src="/assets/local-images/brendlogo-5.webp"
+                            alt=""
+                            className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
+                        />
+                    </Link>
                 </div>
                 <div className="bg-white p-4 text-center justify-center w-52 h-28">
-                    <img
-                        src="/assets/local-images/brendlogo-5.webp"
-                        alt=""
-                        className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
-                    />
+                    <Link to="/new-in">
+                        <img
+                            src="/assets/local-images/brendlogo-5.webp"
+                            alt=""
+                            className="w-full h-full object-contain transition-transform duration-500 transform hover:scale-105"
+                        />
+                    </Link>
                 </div>
             </MultiCarousel>
         </section>

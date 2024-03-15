@@ -51,7 +51,7 @@ const router = createBrowserRouter([
         element: <SignUp />,
     },
     {
-        path: "/collection",
+        path: "/collections",
         element: <Collections />,
     },
     {

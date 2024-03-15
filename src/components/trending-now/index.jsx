@@ -1,5 +1,6 @@
 /** @format */
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import MultiCarousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import {
@@ -32,22 +33,7 @@ const TrendingNow = (prop) => {
             partialVisibilityGutter: 25,
         },
     };
-    // const ButtonGroup = ({ next, previous, ...rest }) => {
-    //     const {
-    //         carouselState: { currentSlide },
-    //     } = rest;
-    //     return (
-    //         <div className="carousel-button-group">
-    //             <button
-    //                 className={`${
-    //                     currentSlide === 0 ? "disable" : ""
-    //                 } left-custom-btn`}
-    //                 onClick={() => previous()}
-    //             />
-    //             <button className="right-custom-btn" onClick={() => next()} />
-    //         </div>
-    //     );
-    // };
+
     const ButtonGroup = ({ next, previous, ...rest }) => {
         const {
             carouselState: { currentSlide },
@@ -173,12 +159,14 @@ const TrendingNow = (prop) => {
                     TRENDING NOW
                 </span>
             </div>
-            <a
-                href="/Product"
-                className="flex justify-center mt-5 underline font-thin text-sm text-stone-400"
-            >
-                View All
-            </a>
+            <Link to="/new-in">
+                <a
+                    href="/new-in"
+                    className="flex justify-center mt-5 underline font-thin text-sm text-stone-400"
+                >
+                    View All
+                </a>
+            </Link>
             <div className="overflow-hidden mx-12">
                 <div className="relative w-full bottom-0 left-0 mt-7">
                     <MultiCarousel
