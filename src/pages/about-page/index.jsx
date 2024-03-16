@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+import { Link } from "react-router-dom";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -11,6 +12,7 @@ import { RiMessage2Fill } from "react-icons/ri";
 import Navbar from "../../components/navbar";
 import Footer from "../../components/footer";
 import VideoPlayer from "../../components/video-player";
+
 
 const About = () => {
     return (
@@ -516,12 +518,17 @@ const About = () => {
                                     <div className="border-b border-gray-300 bg-black w-1 mx-6 h-68"></div>
                                     <div className="flex flex-col sm:flex-row">
                                         <div className="">
+                                        <Link to="/about">
+
                                             <button className="bg-white hover:bg-black hover:text-white text-black border border-black hover:border-black cursor-pointer font-bold py-2 mt-4 px-4 w-48">
                                                 LIVE CHAT
                                             </button>
+                                            </Link>
+                                            <Link to="/contact">
                                             <button className="bg-black hover:bg-white hover:text-black text-white border border-transparent hover:border-black cursor-pointer font-bold py-2 mt-4 px-4 w-48">
                                                 CONTACT US
                                             </button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>

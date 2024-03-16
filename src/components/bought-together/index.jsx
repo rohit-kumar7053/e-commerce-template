@@ -66,12 +66,12 @@ const Boughttogether = () => {
 
     return (
         <section className="container block text-center items-center justify-center">
-            <div className="flex justify-between items-center px-12 bg-stone-100 relative">
+            <div className="flex justify-between items-center pb-16 px-12 bg-stone-100 relative">
                 <div className="h-full w-3/4 bg-stone-100">
                     <div className="bg-stone-100 w-full pt-24">
                         <MultiCarousel
                             partialVisible={true}
-                            autoPlay={true}
+                            autoPlay={false}
                             customTransition="transform 300ms ease-in-out"
                             infinite={true}
                             loop

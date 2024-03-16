@@ -41,55 +41,55 @@ const Categories = () => {
                     <div className="py-1">
                         <ul className="flex flex-col gap-4 text-sm ">
                             <div className="flex items-center relative group">
-                                <span className="absolute left-0 opacity-0 transition-opacity duration-300 ease-in-out  transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
+                                <span className="absolute left-0 opacity-0 transition-opacity duration-300 ease-in-out transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
                                     <IoIosArrowForward />
                                 </span>
                                 <li className="group-hover:pl-5">Cosmopolis</li>
                             </div>
                             <div className="flex items-center relative group">
-                                <span className="absolute left-0 opacity-0 transition-opacity duration-300 transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
+                                <span className="absolute left-0 opacity-0 transition-opacity duration-300 transform -translate-x-full group-hover:translate-x-0">
                                     <IoIosArrowForward />
                                 </span>
                                 <li className="group-hover:pl-5">Suitó</li>
                             </div>
                             <div className="flex items-center relative group">
-                                <span className="absolute left-0 opacity-0 transition-opacity duration-700 transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
+                                <span className="absolute left-0 opacity-0 transition-opacity duration-300 transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
                                     <IoIosArrowForward />
                                 </span>
                                 <li className="group-hover:pl-5">Milancélos</li>
                             </div>
                             <div className="flex items-center relative group">
-                                <span className="absolute left-0 opacity-0 transition-opacity duration-700 transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
+                                <span className="absolute left-0 opacity-0 transition-opacity duration-300 transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
                                     <IoIosArrowForward />
                                 </span>
                                 <li className="group-hover:pl-5">Blazéro</li>
                             </div>
                             <div className="flex items-center relative group">
-                                <span className="absolute left-0 opacity-0 transition-opacity duration-700 transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
+                                <span className="absolute left-0 opacity-0 transition-opacity duration-300 transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
                                     <IoIosArrowForward />
                                 </span>
                                 <li className="group-hover:pl-5">Glamos</li>
                             </div>
                             <div className="flex items-center relative group">
-                                <span className="absolute left-0 opacity-0 transition-opacity duration-700 transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
+                                <span className="absolute left-0 opacity-0 transition-opacity duration-300 transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
                                     <IoIosArrowForward />
                                 </span>
                                 <li className="group-hover:pl-5">Metropolis</li>
                             </div>
                             <div className="flex items-center relative group">
-                                <span className="absolute left-0 opacity-0 transition-opacity duration-700 transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
+                                <span className="absolute left-0 opacity-0 transition-opacity duration-300 transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
                                     <IoIosArrowForward />
                                 </span>
                                 <li className="group-hover:pl-5">Valkyrio</li>
                             </div>
                             <div className="flex items-center relative group">
-                                <span className="absolute left-0 opacity-0 transition-opacity duration-700 transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
+                                <span className="absolute left-0 opacity-0 transition-opacity duration-300 transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
                                     <IoIosArrowForward />
                                 </span>
                                 <li className="group-hover:pl-5">Scarvéro</li>
                             </div>
                             <div className="flex items-center relative group">
-                                <span className="absolute left-0 opacity-0 transition-opacity duration-700 transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
+                                <span className="absolute left-0 opacity-0 transition-opacity duration-300 transform -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
                                     <IoIosArrowForward />
                                 </span>
                                 <li className="group-hover:pl-5">Congué</li>

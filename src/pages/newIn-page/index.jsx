@@ -77,7 +77,6 @@ const Newin = () => {
                     </p>
                     <hr className="flex-grow border-t border-gray-300 my-8"></hr>
                     <FilterableCard />
-                    {/* <NewinProducts /> */}
                     {/* Sorting By */}
                     <div className="container mx-auto p-4">
                         <h1 className="text-2xl font-bold mb-4">
