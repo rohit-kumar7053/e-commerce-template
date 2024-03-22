@@ -13,6 +13,7 @@ import ProductDetails from "./pages/Detail-page";
 import Collections from "./pages/collection-page";
 import BlogCard from "./pages/blog-page";
 import Newin from "./pages/newIn-page";
+import WishList from "./components/wish-list";
 const router = createBrowserRouter([
     {
         path: "/login",
@@ -20,6 +21,11 @@ const router = createBrowserRouter([
     },
     {
         path: "/Sign-Up",
+        element: <SignUp />,
+    },
+    // ye nav top se account banye ga
+    {
+        path: "/create-account",
         element: <SignUp />,
     },
     {
@@ -53,6 +59,10 @@ const router = createBrowserRouter([
     {
         path: "/new-in",
         element: <Newin />,
+    },
+    {
+        path: "/wish-list",
+        element: <WishList />,
     },
 ]);
 

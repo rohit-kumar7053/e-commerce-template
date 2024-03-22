@@ -2,6 +2,8 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import AlertTop from "../../components/top-alert";
+import NavTop from "../../components/navbar-top";
 import Navbar from "../../components/navbar";
 import Footer from "../../components/footer";
 import Ellafeatured from "../../components/ella-featured";
@@ -15,6 +17,8 @@ const Home = () => {
         <section>
             {/* Header Section */}
             <header>
+                <AlertTop />
+                <NavTop />
                 <Navbar />
             </header>
             {/* Banner Section Start */}
@@ -60,7 +64,6 @@ const Home = () => {
                             </div>
                         </Link>
                     </div>
-
                     {/* Category 2  */}
                     <div className="relative w-96 h-52 overflow-hidden bg-black">
                         <Link to="/new-in">

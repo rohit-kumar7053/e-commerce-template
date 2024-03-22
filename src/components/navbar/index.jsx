@@ -21,7 +21,7 @@ const Navbar = (props) => {
                                 >
                                     THEME DEMO
                                 </button>
-                                <div className="absolute top-6 left-0 right-0 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 transform">
+                                <div className="absolute top-50 left-0 right-0 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 transform">
                                     <div className="relative top-3 py-6 h-96 bg-white shadow-xl">
                                         <div className="relative z-10">
                                             <div className="grid grid-cols-4 overflow-hidden h-80 px-12  overflow-y-scroll">
@@ -575,7 +575,7 @@ const Navbar = (props) => {
                                         SHOP
                                     </button>
                                 </Link>
-                                <div className="absolute top-6 left-0 right-0 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 transform">
+                                <div className="absolute top-50 left-0 right-0 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 transform">
                                     <div className="relative top-3 px-12 py-6 h-96 bg-white shadow-xl">
                                         <div className="relative z-10">
                                             <div className="grid grid-cols-4 overflow-hidden ">
@@ -909,7 +909,7 @@ const Navbar = (props) => {
                                 >
                                     PRODUCTS
                                 </button>
-                                <div className="absolute top-6 left-0 right-0 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[560px] transform">
+                                <div className="absolute top-50 left-0 right-0 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[560px] transform">
                                     <div className="relative top-3 py-6 px-12 bg-white shadow-xl">
                                         <div className="relative z-10">
                                             <div className="grid grid-cols-5 gap-6">
@@ -1569,7 +1569,7 @@ const Navbar = (props) => {
                                 >
                                     NEW IN
                                 </button>
-                                <div className="absolute top-7 left-0 right-0 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 transform">
+                                <div className="absolute top-50 left-0 right-0 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 transform">
                                     <div className="relative top-2 bg-white shadow-xl">
                                         <div className="relative z-10">
                                             <div className="flex justify-between items-center text-start gap-20 px-12 py-2 overflow-y-scroll">
@@ -1904,7 +1904,7 @@ const Navbar = (props) => {
                                 >
                                     TREND
                                 </button>
-                                <div className="absolute top-6 left-0 right-0 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 transform">
+                                <div className="absolute top-50 left-0 right-0 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 transform">
                                     <div className="relative top-3 py-8 px-12 bg-white shadow-xl overflow-y-scroll">
                                         <div className="relative z-10">
                                             <div className="flex justify-between items-center text-start gap-20 h-96">
@@ -2247,7 +2247,7 @@ const Navbar = (props) => {
                                 </div>
                             </li>
                             {/* COLLECTIONS */}
-                            <li className=" group px-3 py-2">
+                            <li className="group px-3 py-2">
                                 <Link to="/collections">
                                     <button
                                         className="hover:opacity-50 cursor-default"
@@ -2256,7 +2256,7 @@ const Navbar = (props) => {
                                         COLLECTIONS
                                     </button>
                                 </Link>
-                                <div className="absolute top-9 left-0 right-0 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 transform">
+                                <div className="absolute top-50 left-0 right-0 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 transform">
                                     <div className="relative py-3 px-12 bg-white h-96 shadow-xl">
                                         <div className="relative z-10">
                                             <div className="grid grid-cols-5 gap-6">
@@ -2600,7 +2600,7 @@ const Navbar = (props) => {
                                 </div>
                             </li>
                             {/* BUY ELLA */}
-                            <li className=" relative group px-3 py-2">
+                            <li className="relative group px-3 py-2">
                                 <button
                                     className="hover:opacity-50 cursor-default"
                                     aria-haspopup="true"
