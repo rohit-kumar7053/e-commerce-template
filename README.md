@@ -20,13 +20,12 @@ A sleek and modern e-commerce frontend built using **React.js** and **TailwindCS
 Add screenshots or GIFs to demonstrate the functionality and design.
 
 > If deployed, include the live demo link:
-> [Live Demo](https://example.com)
+> [Live Demo](https://ecommercegems.vercel.app/)
 
 ## Tech Stack
 
 - **Frontend**: React.js, React Router, Axios
 - **Styling**: TailwindCSS
-- **State Management**: Context API or Redux (if applicable)
 
 ## Installation
 
@@ -35,28 +34,28 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ecommerce-frontend.git
+   git clone https://github.com/rohit-kumar7053/e-commerce-template
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd ecommerce-frontend
+   cd e-commerce-template
    ```
 
 3. Install dependencies:
 
    ```bash
-   npm install
+   yarn install
    ```
 
 4. Start the development server:
 
    ```bash
-   npm start
+   yarn dev
    ```
 
-The application will be available at `http://localhost:3000`.
+The application will be available at ` http://localhost:5173/`.
 
 ## Folder Structure
 
