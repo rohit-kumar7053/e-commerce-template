@@ -17,9 +17,6 @@ A sleek and modern e-commerce frontend built using **React.js** and **TailwindCS
 
 ## Demo
 
-Add screenshots or GIFs to demonstrate the functionality and design.
-
-> If deployed, include the live demo link:
 > [Live Demo](https://ecommercegems.vercel.app/)
 
 ## Tech Stack
